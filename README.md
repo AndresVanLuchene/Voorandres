@@ -6,7 +6,7 @@
 | :---     | :---                                    |
 | student1 | [Thymon](https://github.com/Thymon) |
 | student2 | [Joeri](https://github.com/Joeri) |
-| student3 | [student3](https://github.com/student3) |
+| student3 | [Jonas Braem](https://github.com/Braem53402) |
 | student4 | [student4](https://github.com/student4) |
 
 ## Gebruikte tools
