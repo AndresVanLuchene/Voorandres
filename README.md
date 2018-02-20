@@ -5,7 +5,7 @@
 | Naam     | GitHub gebruikersnaam                   |
 | :---     | :---                                    |
 | student1 | [Thymon](https://github.com/Thymon) |
-| student2 | [Joeri](https://github.com/Joeri) |
+| student2 | [Joeri](https://github.com/joeriverhavert) |
 | student3 | [Jonas Braem](https://github.com/Braem53402) |
 | student4 | [student4](https://github.com/student4) |
 
@@ -13,7 +13,9 @@
 
 (voeg hier links toe naar de tools die jullie gebruiken voor tijdregistratie onderlinge afspraken, communicatie (vb. Slack), ...)
 
-* Tijdregistratie: <http://toggl.com/...>
+* Tijdregistratie: https://trello.com/b/iDsxNdY7/systeembeheer-project-g02
+* Analyse : https://trello.com/b/iDsxNdY7/systeembeheer-project-g02
+* communicatie : https://join.slack.com/t/projectg02/
 
 ## Afspraken ivm communicatie, gebruik tools
 
