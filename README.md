@@ -15,7 +15,7 @@
 
 * Tijdregistratie: https://trello.com/b/iDsxNdY7/systeembeheer-project-g02
 * Analyse : https://trello.com/b/iDsxNdY7/systeembeheer-project-g02
-* communicatie : https://join.slack.com/t/projectg02/
+* communicatie : https://projectg02.slack.com
 
 ## Afspraken ivm communicatie, gebruik tools
 
