@@ -1,11 +1,11 @@
-# Project 3 Systeembeheer
+# Project 2 Systeembeheer
 
 ## Groepsleden
 
 | Naam     | GitHub gebruikersnaam                   |
 | :---     | :---                                    |
 | student1 | [Thymon](https://github.com/Thymon) |
-| student2 | [student2](https://github.com/student2) |
+| student2 | [Joeri](https://github.com/Joeri) |
 | student3 | [student3](https://github.com/student3) |
 | student4 | [student4](https://github.com/student4) |
 
