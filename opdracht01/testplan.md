@@ -2,6 +2,7 @@
 
 ## Basisconfiguratie Switch
 Auteur(s) testplan: Joeri & Thymon
+
 A)
 1. Consolekabel van Manager naar Room-145
 2. Banner: "Warning"
