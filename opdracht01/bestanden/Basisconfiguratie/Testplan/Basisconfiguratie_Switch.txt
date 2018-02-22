@@ -1,0 +1,49 @@
+Connectie gemaakt van Student-1 desktop met Class-A switch door consolekabel van RS232 naar console.
+Terminal:
+Switch - 1
+# enable
+# config t
+# hostname Room-145
+# line vty 0 15 
+# password R4Xe3
+# login
+# exit
+# line con 0
+# password R4Xe3
+# login
+# exit
+# enable secret C4aJa
+# service password-encryption
+# banner motd #Warning#
+# interface vlan 1
+# ip address 172.16.5.35 255.255.255.0
+# end
+# copy running-config startup-config
+# exit
+
+CMD Manager :
+Ipconfig 172.16.5.50 255.255.255.0
+
+Switch - 2
+# enable
+# config t
+# hostname Room-146
+# line vty 0 15 
+# password R4Xe3
+# login
+# exit
+# line con 0
+# password R4Xe3
+# login
+# exit
+# enable secret C4aJa
+# service password-encryption
+# banner motd #Warning#
+# interface vlan 1
+# ip address 172.16.5.40 255.255.255.0
+# end
+# copy running-config startup-config
+# exit
+
+CMD Reception:
+Ipconfig 172.16.5.60 255.255.255.0 
