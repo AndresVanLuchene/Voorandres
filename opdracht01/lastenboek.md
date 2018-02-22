@@ -1,13 +1,11 @@
-# Lastenboek Taak 1: (titel)
+# Lastenboek Taak 1: Proefopstellingen netwerkapparatuur
 
-* Verantwoordelijke uitvoering: `studentx`
-* Verantwoordelijke testen: `studenty`
+* Verantwoordelijke uitvoering: `Thymon & joeri`
+* Verantwoordelijke testen: `Jonas & Emiel`
 
 ## Deliverables
 
-(Som hier de concrete resultaten die van deze opdracht verwacht worden. Verwijder dan ook deze uitleg.)
 
-* ...
 
 ## Deeltaken
 
@@ -19,9 +17,9 @@
 
 | Student  | Geschat | Gerealiseerd |
 | :---     |    ---: |         ---: |
-| student1 |         |              |
-| student2 |         |              |
-| student3 |         |              |
-| student4 |         |              |
+| Thymon   |         |              |
+| Jonas    |         |              |
+| Emiel    |         |              |
+| Joeri    |         |              |
 
 (na oplevering van de taak een schermafbeelding toevoegen van rapport tijdbesteding voor deze taak)
