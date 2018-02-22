@@ -17,9 +17,9 @@
 
 | Student  | Geschat | Gerealiseerd |
 | :---     |    ---: |         ---: |
-| Thymon   |         |              |
+| Thymon   |   20      |              |
 | Jonas    |         |              |
 | Emiel    |         |              |
-| Joeri    |         |              |
+| Joeri    |   20      |              |
 
 (na oplevering van de taak een schermafbeelding toevoegen van rapport tijdbesteding voor deze taak)
