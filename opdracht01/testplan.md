@@ -1,7 +1,6 @@
-# Testplan Labo: Basisconfiguratie Switch
+# Testplan Opdracht 1:
 
-(Een testplan is een *exacte* procedure van dmlid moet aan de hand van deze procedure in staat zijn om de tests uit te voeren en erover te rapporteren (= zie testrapport). Geef bij elke stap het verwachte resultaat en hoe de handelingen die je moet uitvoeren om aan te tonen dat de opdracht volledig volbracht is en dat aan alle specificaties voldaan is. Een teaje kan verifiëren of dat resultaat ook behaald is. Kies zelf de structuur: genummerde lijst, tabel, secties, ... Verwijder deze uitleg als het plan af is.)
-
+## Basisconfiguratie Switch
 Auteur(s) testplan: Joeri & Thymon
 A)
 1. Consolekabel van Manager naar Room-145
