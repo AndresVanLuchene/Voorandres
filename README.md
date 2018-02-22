@@ -7,7 +7,7 @@
 | student1 | [Thymon](https://github.com/Thymon) |
 | student2 | [Joeri Verhavert](https://github.com/joeriverhavert) |
 | student3 | [Jonas Braem](https://github.com/Braem53402) |
-| student4 | [student4](https://github.com/student4) |
+| student4 | [Emiel Marchand](https://github.com/royalsnail) |
 
 ## Gebruikte tools
 
