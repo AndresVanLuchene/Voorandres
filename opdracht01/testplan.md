@@ -64,3 +64,44 @@ PC-A)
 1. ip adres 192.168.1.10 
 2. subnetmask 255.255.255.0
 3. hostname PC-B
+
+## Labo3
+
+R1)
+
+1. koperen crossover van R1 naar PC-B
+2. Banner: "Authorized access is strictly prohibited and prosecuted to the full extend of the law?"
+3. Wachtwoord login: cisco
+4. Priviliged wachtwoord login: class
+5. Wachtwoorden geëncrypteerd 
+6. Hostname R1
+7. Ip adres G0/0 en G0/1
+    a. G0/0 : Ip adres G0/0 192.168.0.1 255.255.255.0
+    b. G0/1 : Ip adres G0/0 192.168.1.1 255.255.255.0
+8. clock ingesteld
+9. interface description G0/0 en G0/1
+    a. G0/0 : "Interface G0/0 is connected to PC-B"
+    b. G0/1 : "Interface G0/1 is connected to S1"
+10. Opgeslagen in running-config
+11. koperen straight-through van R1 naar S1
+
+PC-A)
+1. ip adres : 192.168.1.3 
+2. subnetmask : 255.255.255.0
+3. default gateway : 192.168.1.1
+
+
+PC-B)
+1. ip adres : 192.168.0.3 
+2. subnetmask : 255.255.255.0
+3. default gateway : 192.168.0.1
+
+S1) 
+1. hostname : S1
+2. interface vlan1 up
+3. koperen straight-through kabel van S1 naar R1
+3. koperen straight-through kabel van S1 naar PC-A
+
+
+     
+
