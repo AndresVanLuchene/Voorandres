@@ -101,22 +101,20 @@ Er is wel degelijk een verbinding van de pc tot de switch dit blijkt uit volgend
 
 ### Switch 1
 
-1. Klopt
-2. De banner klopt
-3. Wachtwoord klopt
-4. Priviliged wachtwoord klopt
-5. Wachtwoord is geëncrypteerd
-6. Hostname is S1
-7. Er is inderdaad geen ip address
-8. Klopt
+Er ligt een console kabel naar de switch vanaf PC A dit is te zien door via PC-B op de terminal van S1 te geraken. Als we hier op inloggen krijgen we een banner te zien en moeten we 2 keer inloggen zoals ingesteld dit klopt dus zoals te zien op de afbeelding. En ook dat de de hosntame van de switch S1 is.
 
 ![Afbeelding 1](img/Lab2Algemeen.JPG)
+
+![Afbeelding 4](img/Lab2Switch1.JPG)
+
+Als we naar de running config gaan van S1 via het commando `show runnning-config` krijgen we te zien dat de configuratie correct opgelsagen is en ook dat de wachtwoorden geëncrypteerd zijn.
+
 
 ![Afbeelding 2](img/Lab2EncryptS1.JPG)
 
 ![Afbeelding 3](img/Lab2S1NoIp.JPG)
 
-![Afbeelding 4](img/Lab2Switch1.JPG)
+
 
 ### Switch 2
 
@@ -133,7 +131,7 @@ Als we naar de running config gaan van S2 via het commando `show runnning-config
 
 1. IP is 192.168.1.10
 2. Subnetmask is 255.255.255.0
-3. Hostname PC-B
+3. Hostname PC-B, kan je terugvinden in de instellingen van PC-A
 
 ![Afbeelding 5](img/PCAIpconfig.JPG)
 
