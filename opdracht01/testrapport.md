@@ -66,4 +66,6 @@ A)
 2. PC-PT aanwezig
 3. RJ-45 Console kabel verbind switch en PC via COM-poort
 
+Dit klopt allemaal zoals te zien op onderstaande afbeelding
+
 ![Test A](img/Labo1Fysiek.JPG)
