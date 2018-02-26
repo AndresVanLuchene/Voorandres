@@ -5,26 +5,28 @@
 
 ## Deliverables
 
-* 1 Testplan van de 5 labo's
-* 1 Testrapport van de 5 labo's
-* 5 voltooide packet tracer opdrachten.
+* Handleiding voor het opzetten van elke Stack.
+* Script voor automatiserende installatie van de Stacks
+* Een SAP netweaver ontwikkelingsomgeving
+* Testplan en Testrapport
 
 ## Deeltaken
 
 (Som hier de deeltaken voor deze opdracht op, en link naar de Github issues. Je kan hier ook afhankelijkheden tussen deeltaken vermelden.)
 
-* Het apart voltooien van de 5 labo's
-* Het opstellen van het testplan
-* Het testen van de 5 labo's
-* Het opstellen van het testrapport
+* Het opzetten van 2 Stack's
+* Het opzetten van een SAP ontwikkelingsomgeving
+* Het maken van een testplan
+* Het maken van een testrapport
+
 
 ## Tijdbesteding
 
 | Student  | Geschat | Gerealiseerd |
 | :---     |    ---: |         ---: |
-| Thymon   |   20      |              |
-| Jonas    |   15      |              |
-| Emiel    |   17     |              |
-| Joeri    |   20      |              |
+| Thymon   |         |              |
+| Jonas    |   25    |              |
+| Emiel    |        |              |
+| Joeri    |   25    |              |
 
 (na oplevering van de taak een schermafbeelding toevoegen van rapport tijdbesteding voor deze taak)
