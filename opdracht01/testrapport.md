@@ -31,7 +31,7 @@ Commandprompt in terminal
 
 Afbeeldingen:
 
-![Afbeelding 1](img/basisconfiguratie.JPG) \s
+![Afbeelding 1](img/basisconfiguratie.JPG) /s
 ![Afbeelding 2](img/basisconfiguratie_encrypt.JPG) \s
 ![Afbeelding 3](img/basisconfiguratie_ip.JPG) \s
 ![Afbeelding 4](img/basisconfiguratie_privilegedpwd_a.JPG) \s
