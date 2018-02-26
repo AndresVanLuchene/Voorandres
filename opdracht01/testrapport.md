@@ -41,3 +41,14 @@ Terminal in Manager
 8. show startup-config = show running-config
 Commandprompt in terminal
 9. ipconfig --> klopt
+
+## Testrapport Labo 1
+
+A)
+1. Cisco 2960 switch is aanwezig
+2. PC-PT is aanwezig
+3. RJ-45 console kabel verbind switch en PC via COM-poort
+
+Aan volgende afbeelding is te zien dat alles hierboven klopt dat zowel alle 2 de apparaten aanwezig zijn. En dat ze verbonden zijn met een console kabel.
+![Labo 1 test A](img/Labo1Fysiek.JPG)
+
