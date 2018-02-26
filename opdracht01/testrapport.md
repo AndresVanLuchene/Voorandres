@@ -31,11 +31,11 @@ Commandprompt in terminal
 
 Afbeeldingen:
 
-![Afbeelding 1](img/basisconfiguratie.JPG) /s
-![Afbeelding 2](img/basisconfiguratie_encrypt.JPG) \s
-![Afbeelding 3](img/basisconfiguratie_ip.JPG) \s
-![Afbeelding 4](img/basisconfiguratie_privilegedpwd_a.JPG) \s
-![Afbeelding 5](img/basisconfiguratie_managerip.JPG) \s
+![Afbeelding 1](img/basisconfiguratie.JPG)
+![Afbeelding 2](img/basisconfiguratie_encrypt.JPG)
+![Afbeelding 3](img/basisconfiguratie_ip.JPG)
+![Afbeelding 4](img/basisconfiguratie_privilegedpwd_a.JPG)
+![Afbeelding 5](img/basisconfiguratie_managerip.JPG)
 
 B)
 Terminal in Manager
@@ -52,8 +52,18 @@ Commandprompt in terminal
 
 Afbeeldingen:
 
-![Afbeelding 1](img/basisconfiguratie_b.JPG) \s
-![Afbeelding 2](img/basisconfiguratie_encrypt_b.JPG) \s
-![Afbeelding 3](img/basisconfiguratie_ip_b.JPG) \s
-![Afbeelding 4](img/basisconfiguratie_privilegedpwd_b.JPG) \s
-![Afbeelding 5](img/basisconfiguratie_receptionip.JPG) \s
+![Afbeelding 1](img/basisconfiguratie_b.JPG)
+![Afbeelding 2](img/basisconfiguratie_encrypt_b.JPG)
+![Afbeelding 3](img/basisconfiguratie_ip_b.JPG)
+![Afbeelding 4](img/basisconfiguratie_privilegedpwd_b.JPG)
+![Afbeelding 5](img/basisconfiguratie_receptionip.JPG)
+
+## Testrapport labo 1
+
+A)
+
+1. Cisco 2960 switch aanwezig
+2. PC-PT aanwezig
+3. RJ-45 Console kabel verbind switch en PC via COM-poort
+
+![Test A](img/Labo1Fysiek.JPG)
