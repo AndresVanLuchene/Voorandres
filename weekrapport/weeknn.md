@@ -1,14 +1,14 @@
 # Voortgangsrapport week nn
 
-* Groep:
-* Datum:
+* Groep: g02
+* Datum: 26/02/2018
 
 | Student  | Aanw. | Opmerking |
 | :---     | :---  | :---      |
-| student1 |       |           |
-| student2 |       |           |
-| student3 |       |           |
-| student4 |       |           |
+| Joeri    |       |           |
+| Thymon   |       |           |
+| Jonaas   |       |           |
+| Emiem    |       |           |
 
 ## Wat heb je deze week gerealiseerd?
 
