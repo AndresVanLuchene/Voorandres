@@ -163,7 +163,31 @@ Beide wachtwoorden kloppen. Wanneer met gaat kijken in de running-config met het
 
 ![Clock](img/Lab3ShowClock.JPG)
 
+### PC A
 
+1. IP is 192.168.1.3 dit vinden we als we op de command prompt van PC-B het commando `ipconfig` gebruiken
+2. Subnetmask is 255.255.255.0 dit vinden we als we op de command prompt van PC-B het commando `ipconfig` gebruiken
 
+![Ip config van PC A](img/Labo3IpConfigPCA.JPG)
+
+3. Hostname PC-A dit is te vinden in de instellingen van PC-A
+
+![Hostname PC A ](img/Labo3HostnamePCA.JPG)
+### PC B
+
+1. IP is 192.168.0.3 dit vinden we als we op de command prompt van PC-B het commando `ipconfig` gebruiken
+2. Subnetmask is 255.255.255.0 dit vinden we als we op de command prompt van PC-B het commando `ipconfig` gebruiken
+
+![Ip config van PC B](img/Labo3IpConfigPCB.JPG)
+
+3. Hostname PC-B dit is te vinden in de instellingen van PC-B
+
+![Hostname PC B ](img/Labo3HostnamePCB.JPG)
+
+### Switch 1
+
+De hostname van de switch klopt zoals te zien in de CLI, Vlan 1 is ook actief dit vind je via het commando `show vlan`
+
+![Hostname S1 en VLan ](img/Labo3S1VlanUp.JPG)
 
 
