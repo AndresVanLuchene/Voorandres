@@ -12,6 +12,10 @@
 
 ## Wat heb je deze week gerealiseerd?
 
+* 19-02 tot 26/02 
+    * We hebben van de basisconfiguratie tot labo 3 volledige uitgewerkt: van uitvoering, testplan tot testrapport + opstart van labo4 op packetracer.
+       
+
 ### Algemeen
 #### Status kanban bord weekrapport 3.
 
@@ -23,10 +27,11 @@
 #### Afbeelding tijdregistratie weekrapport 3
 ![Afbeelding teamoverzicht tijdregistratie onderverdeeld per deelopdracht](img/week3.JPG)
 
-### Joeri
+### Joeri Verhavert
+#### Afbeelding tijdregistratie weekrapport 3
 * ...
 
-![Afbeelding individueel rapport tijdregistratie]
+![Afbeelding individueel rapport tijdregistratie](img/individueelbordJoeriVerhavert.PNG)
 
 ### Thymon
 
@@ -50,9 +55,9 @@
 
 ### Algemeen
 ### joeri : afwerken fysieke labo4  + Wisa opdracht 2
-### Student 2
-### Student 3
-### Student 4
+### Jonas : 
+### Emiel :
+### Thymon : 
 
 ## Waar hebben jullie nog problemen mee?
 
