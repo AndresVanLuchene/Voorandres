@@ -65,3 +65,15 @@ Afbeeldingen:
 ![Afbeelding 4](img/basisconfiguratie_privilegedpwd_b.JPG)
 
 ![Afbeelding 5](img/basisconfiguratie_receptionip.JPG)
+
+## Testrapport labo 1
+
+A)
+
+1. Cisco 2960 switch aanwezig
+2. PC-PT aanwezig
+3. RJ-45 Console kabel verbind switch en PC via COM-poort
+
+Dit klopt allemaal zoals te zien op onderstaande afbeelding
+
+![Test A](img/Labo1Fysiek.JPG)
