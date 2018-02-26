@@ -30,6 +30,7 @@ Commandprompt in terminal
 9. ipconfig --> klopt
 
 Afbeeldingen:
+
 ![Afbeelding 1](img/basisconfiguratie.JPG)
 
 B)
