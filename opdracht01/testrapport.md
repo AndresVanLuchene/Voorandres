@@ -32,6 +32,10 @@ Commandprompt in terminal
 Afbeeldingen:
 
 ![Afbeelding 1](img/basisconfiguratie.JPG)
+![Afbeelding 2](img/basisconfiguratie_encrypt.JPG)
+![Afbeelding 3](img/basisconfiguratie_ip.JPG)
+![Afbeelding 4](img/basisconfiguratie_privilegedpwd_a.JPG)
+![Afbeelding 5](img/basisconfiguratie_managerip.JPG)
 
 B)
 Terminal in Manager
@@ -45,3 +49,11 @@ Terminal in Manager
 8. show startup-config = show running-config
 Commandprompt in terminal
 9. ipconfig --> klopt
+
+Afbeeldingen:
+
+![Afbeelding 1](img/basisconfiguratie_b.JPG)
+![Afbeelding 2](img/basisconfiguratie_encrypt_b.JPG)
+![Afbeelding 3](img/basisconfiguratie_ip_b.JPG)
+![Afbeelding 4](img/basisconfiguratie_privilegedpwd_b.JPG)
+![Afbeelding 5](img/basisconfiguratie_receptionip.JPG)
