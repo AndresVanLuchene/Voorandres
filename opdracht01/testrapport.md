@@ -124,7 +124,7 @@ Er ligt een console kabel naar de switch vanaf PC B dit is te zien door via PC-B
 
 ![Banner en Login check van switch 2](img/Labo2BannerLoginSwitch2.JPG)
 
-Als we naar de running config gaan van S2 via het commando `show runnning-config` krijgen we te zien dt de configuratie correct opgelsagen is en ook dat de wachtwoorden geëncrypteerd zijn.
+Als we naar de running config gaan van S2 via het commando `show runnning-config` krijgen we te zien dat de configuratie correct opgelsagen is en ook dat de wachtwoorden geëncrypteerd zijn.
 
 ![Running config van Switch 2 deel 1](img/Labo2RunningConfigSwitch2.JPG)
 
