@@ -122,13 +122,13 @@ Er is wel degelijk een verbinding van de pc tot de switch dit blijkt uit volgend
 
 Er ligt een console kabel naar de switch vanaf PC B dit is te zien door via PC-B op de terminal van S2 te geraken. Als we hier op inloggen krijgen we een banner te zien en moeten we 2 keer inloggen zoals ingesteld dit klopt dus zoals te zien op de afbeelding. En ook dat de de hosntame van de switch S2 is.
 
-[Afbeelding 5](img/Labo2BannerLoginSwitch2.JPG)
+![Banner en Login check van switch 2](img/Labo2BannerLoginSwitch2.JPG)
 
 Als we naar de running config gaan van S2 via het commando ´show runnning-config´ krijgen we te zien dt de configuratie correct opgelsagen is en ook dat de wachtwoorden geëncrypteerd zijn.
 
-[Afbeelding 5](img/Labo2RunningConfigSwitch2.JPG)
+![Running config van Switch 2 deel 1](img/Labo2RunningConfigSwitch2.JPG)
 
-[Afbeelding 5](img/Labo2RunningConfigSwitch2Deel2.JPG)
+![Running config van Switch 2 deel 2](img/Labo2RunningConfigSwitch2Deel2.JPG)
 ### PC-A
 
 1. IP is 192.168.1.10
@@ -144,11 +144,11 @@ Als we naar de running config gaan van S2 via het commando ´show runnning-confi
 1. IP is 192.168.1.10 dit vinden we als we op de command prompt van PC-B het commando ´ipconfig´ gebruiken
 2. Subnetmask is 255.255.255.0 dit vinden we als we op de command prompt van PC-B het commando ´ipconfig´ gebruiken
 
-![Afbeelding 5](img/Labo2PcBIpConfig.JPG)
+![Resultaat bij Ipconfig van PC B](img/Labo2PcBIpConfig.JPG)
 
 3. Hostname PC-B dit is te vinden in de instellingen van PC-B
 
-![Afbeelding 6](img/Labo2Pc-BHostname.JPG)
+![Resultaat Hostname van PC B](img/Labo2Pc-BHostname.JPG)
 
 
 
