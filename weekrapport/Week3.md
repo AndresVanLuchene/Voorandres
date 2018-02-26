@@ -14,12 +14,12 @@
 
 ### Algemeen
 
-[Afbeelding huidige toestand Kanban-bord(en) invoegen]
+![Afbeelding huidige toestand Kanban-bord(en) invoegen](img/KanbanWeek3.JPG)
 
 * ...
 * ...
 
-[Afbeelding teamoverzicht tijdregistratie onderverdeeld per deelopdracht](img/week3.JPG)
+![Afbeelding teamoverzicht tijdregistratie onderverdeeld per deelopdracht](img/week3.JPG)
 
 ### Joeri
 * ...
