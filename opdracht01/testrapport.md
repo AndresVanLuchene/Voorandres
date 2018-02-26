@@ -12,7 +12,7 @@ Github commit:  COMMIT HASH
 
 Uitvoerder: Emiel Marchand
 Datum: 26/02/2018
-Github commit: 
+Github commit: 5ece21c332803cc381fb0f6cb205b7c0ea7b7ba7
 Testrapport basisconfiguratie
 
 A)
