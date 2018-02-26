@@ -148,5 +148,22 @@ Als we naar de running config gaan van S2 via het commando `show runnning-config
 
 ![Resultaat Hostname van PC B](img/Labo2Pc-BHostname.JPG)
 
+## Testrapport labo 3
+
+### Router 1
+
+De koperen crossover van R1 naar PC-B is er. Wanneer je kijkt naar de CLI van router 1, kan je zien dat er een banner is ingesteld.
+Beide wachtwoorden kloppen. Wanneer met gaat kijken in de running-config met het commando `show running-config`, kan men de informatie i.v.m. de interfaces terugvinden. Met het commando `show clock` kan je de tijd terugvinden.
+
+![Algemeen screenshot](img/Lab3Router.JPG)
+
+![Running config](img/Lab3Runningconfig.JPG)
+
+![Encryptie](img/Lab3RouterEncryptie.JPG)
+
+![Clock](img/Lab3ShowClock.JPG)
+
+
+
 
 
