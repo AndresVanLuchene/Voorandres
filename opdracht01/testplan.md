@@ -27,6 +27,22 @@ B)
 
 ## Labo1
 
+A)
+1. Ciscio 2960 switch aanwezig 
+2. PC-PT aanwezig 
+3. RJ-45 Console kabel verbind switch en PC via COM-poort
+
+B) 
+Switch:
+1. Console van PC naar switch 
+2. Version : lanbasek9-mz.150-2.SE.
+3. Clock settings: uur:min:sec maand dag jaar
+
+PC;
+1. Geen configuratie nodig
+
+C)
+/
 
 
 ## Labo2
