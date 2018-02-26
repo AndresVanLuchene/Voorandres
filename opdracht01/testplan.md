@@ -28,7 +28,7 @@ B)
 ## Labo1
 
 A)
-1. Ciscio 2960 switch aanwezig 
+1. Cisco 2960 switch aanwezig 
 2. PC-PT aanwezig 
 3. RJ-45 Console kabel verbind switch en PC via COM-poort
 
