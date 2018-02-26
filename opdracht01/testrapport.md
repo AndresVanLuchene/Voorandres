@@ -12,7 +12,7 @@ Github commit:  COMMIT HASH
 
 Uitvoerder: Emiel Marchand
 Datum: 26/02/2018
-Github commit: 5ece21c332803cc381fb0f6cb205b7c0ea7b7ba7
+
 Testrapport basisconfiguratie
 
 A)
@@ -95,6 +95,41 @@ Er is wel degelijk een verbinding van de pc tot de switch dit blijkt uit volgend
 3. De instellingen van de klok kloppen ook zoals te zien in onderstaande afbeelding
 
 ![Test B1 Klok](img/Lab1Clock.JPG)
+
+
+## Testrapport labo 2
+
+Switch 1
+
+1. Klopt
+2. De banner klopt
+3. Wachtwoord klopt
+4. Priviliged wachtwoord klopt
+5. Wachtwoord is geëncrypteerd
+6. Hostname is S1
+7. Er is inderdaad geen ip address
+8. Klopt
+
+![Afbeelding 1](img/Lab2Algemeen.JPG)
+
+![Afbeelding 2](img/Lab2EncryptS1.JPG)
+
+![Afbeelding 3](img/Lab2S1NoIp.JPG)
+
+![Afbeelding 4](img/Lab2Switch1.JPG)
+
+
+PC-A
+
+1. IP is 192.168.1.10
+2. Subnetmask is 255.255.255.0
+3. Hostname PC-B
+
+![Afbeelding 5](img/PCAIpconfig.JPG)
+
+![Afbeelding 6](img/PCAHostname.JPG)
+
+
 
 
 
