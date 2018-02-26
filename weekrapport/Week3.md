@@ -13,12 +13,14 @@
 ## Wat heb je deze week gerealiseerd?
 
 ### Algemeen
+#### Status kanban bord weekrapport 3.
 
 ![Afbeelding huidige toestand Kanban-bord(en) invoegen](img/KanbanWeek3.JPG)
 
 * ...
 * ...
 
+#### Afbeelding tijdregistratie weekrapport 3
 ![Afbeelding teamoverzicht tijdregistratie onderverdeeld per deelopdracht](img/week3.JPG)
 
 ### Joeri
