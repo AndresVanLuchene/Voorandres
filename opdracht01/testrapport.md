@@ -107,12 +107,12 @@ Er ligt een console kabel naar de switch vanaf PC A dit is te zien door via PC-B
 
 ![Afbeelding 4](img/Lab2Switch1.JPG)
 
+![Afbeelding 3](img/Lab2S1NoIp.JPG)
+
 Als we naar de running config gaan van S1 via het commando `show runnning-config` krijgen we te zien dat de configuratie correct opgelsagen is en ook dat de wachtwoorden geëncrypteerd zijn.
 
 
 ![Afbeelding 2](img/Lab2EncryptS1.JPG)
-
-![Afbeelding 3](img/Lab2S1NoIp.JPG)
 
 
 
