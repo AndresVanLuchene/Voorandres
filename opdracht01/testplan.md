@@ -58,7 +58,7 @@ S1)
 7. Ip adres /
 8. Opgeslagen in running-config 
 
-S1)
+S2)
 
 1. Consolekabel van PC-A naar S2
 2. Banner: "Authorized access is strictly prohibited and prosecuted to the full extend of the law?"
