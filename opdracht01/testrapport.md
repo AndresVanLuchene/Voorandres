@@ -77,3 +77,24 @@ A)
 Dit klopt allemaal zoals te zien op onderstaande afbeelding
 
 ![Test A](img/Labo1Fysiek.JPG)
+
+B) Switch:
+
+1. Console van PC naar switch
+2. Version : lanbasek9-mz.150-2.SE.
+3. Clock settings: uur:min:sec maand dag jaar
+
+Er is wel degelijk een verbinding van de pc tot de switch dit blijkt uit volgende afbeelding
+
+![Test B1 verbinding](img/PcToSwitch.JPG)
+
+2 De versie is niet lanbasek9-mz.150-2.SE. maar C2960-LANBASE-M
+
+![Test B1 Versie](img/Labo1Version.JPG)
+
+3. De instellingen van de klok kloppen ook zoals te zien in onderstaande afbeelding
+
+![Test B1 Klok](img/Lab1Clock.JPG)
+
+
+
