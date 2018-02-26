@@ -26,7 +26,7 @@
 ### Joeri
 * ...
 
-![Afbeelding individueel rapport tijdregistratie](img/individueelbordJoeriVerhavert.PNG)
+![Afbeelding individueel rapport tijdregistratie]
 
 ### Thymon
 
