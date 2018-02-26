@@ -1,0 +1,41 @@
+PC-A
+#ipconfig 192.168.1.10 255.255.255.0
+
+PC-B
+#ipconfig 192.168.1.11 255.255.255.0
+
+S1
+#enable
+#conf t
+# hostname S1
+# no ip domain-loopup
+# enable secret class
+# line vty 0 15
+# password cisco
+# login 
+# exit
+# line con 0
+# password cisco
+# login
+# exit
+# banner motd #Unauthorized access is stricly prohibited and prosecuted to the full extent of the law.#
+# exit
+# copy running-config startup-config
+
+S2
+#enable
+#conf t
+# hostname S2
+# no ip domain-loopup
+# enable secret class
+# line vty 0 15
+# password cisco
+# login 
+# exit
+# line con 0
+# password cisco
+# login
+# exit
+# banner motd #Unauthorized access is stricly prohibited and prosecuted to the full extent of the law.#
+# exit
+# copy running-config startup-config
