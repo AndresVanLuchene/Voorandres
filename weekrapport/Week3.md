@@ -26,7 +26,7 @@
 ### Joeri
 * ...
 
-[Afbeelding individueel rapport tijdregistratie]
+![Afbeelding individueel rapport tijdregistratie](img/individueelbordJoeriVerhavert.PNG)
 
 ### Thymon
 
@@ -49,7 +49,7 @@
 ## Wat plan je volgende week te doen?
 
 ### Algemeen
-### Student 1
+### joeri : afwerken fysieke labo4  + Wisa opdracht 2
 ### Student 2
 ### Student 3
 ### Student 4
