@@ -120,6 +120,61 @@ S1)
 
 ## Labo 4
 
+Switch R1:
+Secret: class
+Hostname R1
+No ip domain-lookup enabled
+line vty 0 15 password : password
+logging synchronous enabled
+interface FE 0/0 ip address 172.16.3.1 255.255.255.0
+no shutdown enabled
+description "This is the description"
+interface serial 0/0/0 ip address 172.16.2.1 255.255.255.0
+clock rate 64000 enabled
+no shutdown enabled
+ip route 172.16.1.0 255.255.255.0 172.16.2.2
 
+Switch R2:
+Secret: class
+Hostname R2
+No ip domain-lookup enabled
+line vty 0 15 password : password
+logging synchronous enabled
+interface FE 0/0 ip address 172.16.1.1 255.255.255.0
+no shutdown enabled
+description "This is the description"
+interface serial 0/0/0 ip address 172.16.2.1 255.255.255.0
+interface serial 0/0/1 ip address 192.168.1.2 255.255.255.0
+no shutdown enabled
+ip route 172.16.3.0 255.255.255.0 172.16.2.1
+ip route 192.168.2.0 255.255.255.0 192.168.1.1
+default ip route 0.0.0.0 0.0.0.0 172.16.2.2
+
+Switch R3:
+Secret: class
+Hostname R3
+No ip domain-lookup enabled
+line vty 0 15 password : password
+logging synchronous enabled
+interface FE 0/0 ip address  192.168.2.1 255.255.255.0
+no shutdown enabled
+description "This is the description"
+interface serial 0/0/0 ip address 192.168.1.1 255.255.255.0
+clock rate 64000 enabled
+no shutdown enabled
+ip route 172.16.1.0 255.255.255.0 192.168.1.2
+default ip route 0.0.0.0 0.0.0.0 192.168.1.2
+
+PC1:
+ip addres 172.16.3.10 255.255.255.0 
+ip default-gateway 172.16.3.1
+
+PC2:
+ip addres 172.16.1.10 255.255.255.0 
+ip default-gateway 172.16.1.1
+
+PC3:
+ip addres 192.168.2.10 255.255.255.0 
+ip default-gateway 192.168.2.1
      
 
