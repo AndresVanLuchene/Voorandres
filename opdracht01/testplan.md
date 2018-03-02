@@ -123,7 +123,7 @@ S1)
 Switch R1:
 Secret: class
 Hostname R1
-No ip domain-lookup enabled
+No ip domain-lookup enabled 
 line vty 0 15 password : password
 logging synchronous enabled
 interface FE 0/0 ip address 172.16.3.1 255.255.255.0
