@@ -133,7 +133,7 @@ interface serial 0/0/0 ip address 172.16.2.1 255.255.255.0
 clock rate 64000 enabled
 no shutdown enabled
 ip route 172.16.1.0 255.255.255.0 172.16.2.2
-
+k
 
 Switch R2:
 Secret: class
