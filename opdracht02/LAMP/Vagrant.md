@@ -19,4 +19,4 @@ Eens dat de VM geinstalleerd is gaan we er mee connecteren via het commando `vag
 
 ![Vagrant Up Afbeelding](img/VagrantSSH.JPG)
 
-Nu ben je op je virtueel machine zit kan je beginnen met de installatie van Lamp: [Lamp Handleiding](https://github.com/HoGentTIN/p2ops-g02/tree/master/opdracht02/LAMP)
+Nu ben je op je virtueel machine zit kan je beginnen met de installatie van Lamp: [Lamp Handleiding](https://github.com/HoGentTIN/p2ops-g02/blob/master/opdracht02/LAMP/LAMP.md)
