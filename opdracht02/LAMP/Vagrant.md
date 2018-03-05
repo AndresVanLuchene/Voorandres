@@ -24,6 +24,6 @@ Je kan natuurlijk het vragrant bestand aanpassen als je het opent krijg je het v
 
 ![Vagrant File Afbeelding](img/VagrantFile.JPG)
 
-Hier kan je bijvoorbeeld het adres configureren van je vagrant of de poort waarlangs de communicatie bijwoont dat is het enigste dat aangepast moet worden bij het opzetten van de LAMP.
+Hier kan je bijvoorbeeld het ip adres configureren van je vagrant of de poort waarlangs de communicatie bijwoont dat is het enigste dat aangepast moet worden bij het opzetten van de LAMP.
 
 Nu ben je op je virtueel machine zit kan je beginnen met de installatie van Lamp: [Lamp Handleiding](https://github.com/HoGentTIN/p2ops-g02/blob/master/opdracht02/LAMP/LAMP.md)
