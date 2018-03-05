@@ -25,7 +25,7 @@
 | Student  | Geschat | Gerealiseerd |
 | :---     |    ---: |         ---: |
 | Thymon   |         |              |
-| Jonas    |   25    |              |
+| Jonas    |   30   |              |
 | Emiel    |        |              |
 | Joeri    |   25    |              |
 
