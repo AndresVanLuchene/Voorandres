@@ -196,23 +196,34 @@ De hostname van de switch klopt zoals te zien in de CLI, Vlan 1 is ook actief di
 
 1. Secret wachtwoord is inderdaad class
 2. De hostnaam van de switch is R1, dit is dus correct.
+
 ![Hostnaam switch switch R1](img/HostnameR1.PNG)
+
 3. No ip domain-lookup is gëenabled
+
 ![No ip domain-lookup switch R1](img/noIpdomainlookupR1.PNG)
+
 4. het line vty 0 15 password is password, dit komt overeen.
 5. logging synchronous is op van line vty 0 15 en line con 0 gëenabled.
+
 ![line vty 0 15 switch R1](img/linevtypasswordR1.PNG)
+
 6. Het ip adres van interface F0/0 is ingesteld op 172.16.3.1 255.255.255.0
 7. Shutdown is bij interface F0/0 gëenabled.
 8. De description van interface F0/0 is "This is the description", dit is dus correct.
+
 ![Interface F0/0 switch R1](img/interfaceF0R1.PNG)
+
 9. Interface S0/0/1 bestaat niet. Het is Serial2/0, het ip adres van Serial2/0 is 172.16.2.1 255.255.255.0
     a. Oplossing : Controleren naar juiste interface.
 10. De clock rate van Serial2/0 is 64000, dit klopt dus.
 11. Shutdown is bij interface Serial2/0 gëenabled.
+
 ![Interface Serial2/0 switch R1](img/interfaceserial2R1.PNG)
+
 12. Ip route is 172.16.2.2 255.255.255.0 0.0.0.0 en niet 172.16.1.0 255.255.255.0 172.16.2.2
    a. Oplossing : Opletten bij het neerschrijven van het testplan. 
+   
 ![Ip route switch R1](img/iprouteR1.PNG)
     
     
