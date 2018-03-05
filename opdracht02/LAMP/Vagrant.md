@@ -22,7 +22,7 @@ Eens dat de VM geinstalleerd is gaan we er mee connecteren via het commando `vag
 
 Je kan natuurlijk het vragrant bestand aanpassen als je het opent krijg je het volgende te zien.
 
-![Vagrant Up Afbeelding](img/VagrantFile.JPG)
+![Vagrant File Afbeelding](img/VagrantFile.JPG)
 
 Hier kan je bijvoorbeeld het adres configureren van je vagrant of de poort waarlangs de communicatie bijwoont dat is het enigste dat aangepast moet worden bij het opzetten van de LAMP.
 
