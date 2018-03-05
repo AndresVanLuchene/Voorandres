@@ -228,6 +228,23 @@ De hostname van de switch klopt zoals te zien in de CLI, Vlan 1 is ook actief di
     
     
 ## Switch R2
-
+1. Secret password is class, dit komt overeen met het testplan.
+2. De hostnaam van de switch is R2, dit klopt.
+3. No ip domain-lookup vinden we terug in het running-config hiermee weten we dat dit is gëenabled.
+4. Het password van line vty 0 15 is inderdaad password.
+5. Logging synchronous is op alle vty line ingesteld.
+6. Interface F0/0 heeft als ip adres. 172.16.2.1 255.255.255.0
+7. no shutdown is bij F0/0 aanwezig.
+8. De description van F0/0 is "This is the description", dit klopt dus.
+9. Er is geen interface Serial0/0/0, wel een interface Serial2/0 en heeft als ip adres 172.16.2.2 255.255.255.0
+10. Er is geen interface Serial0/0/1, wel een interface Serial3/0 en heeft als ip adres 172.16.1.2 255.255.255.0
+11. No shutdown is bij interface S2/0 en S3/0 ingesteld.
+12. Volgende ip routes zijn vastgesteld.
+    a. ip route 172.16.2.0 255.255.255.0 172.16.2.1 
+    b. ip route 192.168.1.0 255.255.255.0 192.168.1.1 
+    c. ip route 192.168.2.0 255.255.255.0 192.168.1.1 
+    d. ip route 172.16.3.0 255.255.255.0 Serial2/0 
+ 13. Er is geen default route ingesteld. 
+    Oplossing : Hier is geen default route nodig, dit kan niet.
 
 
