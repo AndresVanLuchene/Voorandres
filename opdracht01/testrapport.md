@@ -194,43 +194,46 @@ De hostname van de switch klopt zoals te zien in de CLI, Vlan 1 is ook actief di
 
 ## Switch R1
 
-1. Secret wachtwoord is inderdaad class
-2. De hostnaam van de switch is R1, dit is dus correct.
+1. Secret wachtwoord is inderdaad class. Dit kunnen we controleren door het commando show running config te gaan gebruiken. Als we dan in running-config kijken zien we dat enable secret aanwezig is in de config, hier kunnen we wel niet zien wat het wachtwoord is.Maar dit kunnen we controleren door het commando enable in de geven.
+2. Als we in de running config gaan kijken, kunnen we vaststellen dat de hostname van deze router R1 is.
 
 ![Hostnaam router R1](img/HostnameR1.PNG)
 
-3. No ip domain-lookup is gëenabled
+3. No ip domain-lookup is gëenabled. Ook hier vinden we de gepaste informatie in de running-config.
 
 ![No ip domain-lookup router switch R1](img/noIpdomainlookupR1.PNG)
 
 4. het line vty 0 15 password is password, dit komt overeen.
-5. logging synchronous is op van line vty 0 15 en line con 0 gëenabled.
+5. logging synchronous is op van line vty 0 15 en line con 0 gëenabled. Dit kunnen we allebei zien op onderstaande foto.
 
 ![line vty 0 15 Router R1](img/linevtypasswordR1.PNG)
 
 6. Het ip adres van interface F0/0 is ingesteld op 172.16.3.1 255.255.255.0
-7. Shutdown is bij interface F0/0 gëenabled.
-8. De description van interface F0/0 is "This is the description", dit is dus correct.
+7. Shutdown is bij interface F0/0 gëenabled. Als we in de running config gaan kijken, valt er ons op dat bij interfafe F0/0 niets aanwezig is van shutdown. Hierbij kunnen we vaststellen dat no shutdown in werking is. Anders hadden we shutdown gezien.
+8. De description van interface F0/0 is "This is the description", wat we kunnen aantonen met onderstaande foto.
 
 ![Interface F0/0 Router R1](img/interfaceF0R1.PNG)
 
 9. Interface S0/0/1 bestaat niet. Het is Serial2/0, het ip adres van Serial2/0 is 172.16.2.1 255.255.255.0
-    a. Oplossing : Controleren naar juiste interface.
-10. De clock rate van Serial2/0 is 64000, dit klopt dus.
+    a. Oplossing : Controleren naar juiste interface in packettracer.
+    b. Opmerking : In de opdracht wordt er wel degelijk over S0/0/1.
+10. De clock rate van Serial2/0 is 64000, dit klopt dus. Dit kunnen we controleren door in de running config te gaan kijken. Dit kunnen we zien op onderstaande foto.
 11. Shutdown is bij interface Serial2/0 gëenabled.
 
 ![Interface Serial2/0 Router R1](img/interfaceserial2R1.PNG)
 
-12. Ip route is 172.16.2.2 255.255.255.0 0.0.0.0 en niet 172.16.1.0 255.255.255.0 172.16.2.2
+12. Ip route is 0.0.0.0 0.0.0.0 172.16.2.2  en niet 172.16.1.0 255.255.255.0 172.16.2.2 
+Door het commando show ip route te gaan gebruiken kunnen we deze route terug vinden of door te gaan kijken in de running-config.
    a. Oplossing : Opletten bij het neerschrijven van het testplan. 
+   b. opmerking : Dit is een default route.
    
 ![Ip route Router R1](img/iprouteR1.PNG)
     
     
 ## Switch R2
 
-1. Secret password is class, dit komt overeen met het testplan.
-2. De hostnaam van de switch is R2, dit klopt.
+1. Secret password is class, dit komt overeen met het testplan. Dit kunnen we controleren door het commando show running config te gaan gebruiken. Als we dan in running-config kijken zien we dat enable secret aanwezig is in de config, hier kunnen we wel niet zien wat het wachtwoord is.Maar dit kunnen we controleren door het commando enable in de geven.
+2. De hostnaam van de Router is R2, dit klopt. Dit kunnen we terug vinden door naar de running-config te gaan kijke. Hier kunnen we zien dat hostname van deze Router R2 is
 
 ![Hostname Router R2 + secret](img/HostnameR2.PNG)
 
@@ -239,27 +242,28 @@ De hostname van de switch klopt zoals te zien in de CLI, Vlan 1 is ook actief di
 ![no domain-lookup Router R2](img/noIpdomainlookupR2.PNG)
 
 4. Het password van line vty 0 15 is inderdaad password.
-5. Logging synchronous is op alle vty line ingesteld.
+5. Logging synchronous is op alle vty line ingesteld. Dit kunnen we zien op onderstaande foto die getrokken is uit de running-config.
 
 ![line vty 15 + synchronous](img/linevtyR2.PNG)
 
 6. Interface F0/0 heeft als ip adres. 172.16.2.1 255.255.255.0
 7. no shutdown is bij F0/0 aanwezig.
-8. De description van F0/0 is "This is the description", dit klopt dus.
+8. De description van F0/0 is "This is the description", dit klopt dus. Zoals te zien op onderstaande foto. Om deze informatie te raadplegen moeten we gaan kijken in de running-config.
 
 ![Interface F0/0](img/interfaceserial2R1.PNG)
 
 9. Er is geen interface Serial0/0/0, wel een interface Serial2/0 en heeft als ip adres 172.16.2.2 255.255.255.0
 10. Er is geen interface Serial0/0/1, wel een interface Serial3/0 en heeft als ip adres 172.16.1.2 255.255.255.0
-11. No shutdown is bij interface S2/0 en S3/0 ingesteld, dit kunnen we zien omdat er geen shutdown bij de interface te zien is.
+11. No shutdown is bij interface S2/0 en S3/0 ingesteld, dit kunnen we zien omdat er geen shutdown bij de interface te zien is. Zoals we kunnen zien op onderstaande foto.
 
 ![Serial interface 2/0 en 3/0](img/SerialsR2.PNG)
 
-12. Volgende ip routes zijn vastgesteld.
-    a. ip route 172.16.2.0 255.255.255.0 172.16.2.1 
-    b. ip route 192.168.1.0 255.255.255.0 192.168.1.1 
-    c. ip route 192.168.2.0 255.255.255.0 192.168.1.1 
+12. Volgende ip routes zijn vastgesteld. Door het commando show ip route te gaan gebruiken kunnen we deze routes terug vinden.
+    a. ip route 172.16.2.0 255.255.255.0 172.16.2.1 /
+    b. ip route 192.168.1.0 255.255.255.0 192.168.1.1 /
+    c. ip route 192.168.2.0 255.255.255.0 192.168.1.1 aa
     d. ip route 172.16.3.0 255.255.255.0 Serial2/0 
+    Oplossing : Hier zien we dat er route a en b allebei fout zijn. We hoeven enkel netwerk 172.16.3.0 en 192.168.2.0 aan te spreken       voor een ip route.
  13. Er is geen default route ingesteld. 
     Oplossing : Hier is geen default route nodig, dit kan niet.
     
@@ -267,8 +271,8 @@ De hostname van de switch klopt zoals te zien in de CLI, Vlan 1 is ook actief di
 
 ## Switch R3
 
-1. Secret password is class, dit komt overeen met het testplan.
-2. De hostnaam van de switch is R2, dit klopt.
+1. Secret password is class, dit komt overeen met het testplan. Dit kunnen we controleren door het commando show running config te gaan gebruiken. Als we dan in running-config kijken zien we dat enable secret aanwezig is in de config, hier kunnen we wel niet zien wat het wachtwoord is.Maar dit kunnen we controleren door het commando enable in de geven. 
+2. De hostnaam van de switch is R2, dit klopt. Dit kunnen we controleren door te kijken wat voor het # staat of in de running-config te gaan kijken.
 
 ![Hostname Router R3 + secret](img/HostnameR3.PNG)
 
@@ -277,25 +281,27 @@ De hostname van de switch klopt zoals te zien in de CLI, Vlan 1 is ook actief di
 ![no domain-lookup Router R3](img/noIpdomainlookupR3.PNG)
 
 4. Het password van line vty 0 15 is inderdaad password.
-5. Logging synchronous is op alle vty line ingesteld.
+5. Logging synchronous is op alle vty line ingesteld. Dit kunnen we zien op onderstaande foto die getrokken is uit de running-config.
 
 ![line vty 15 + synchronous](img/linevtyR3.PNG)
 
 6. Interface F0/0 heeft als ip adres. 192.168.2.1 255.255.255.0
 7. No shutdown is bij F0/0 aanwezig.
-8. De description van F0/0 is "This is the description", dit klopt dus.
+8. De description van F0/0 is "This is the description", dit klopt dus. Zoals te zien op onderstaande foto. Om deze informatie te raadplegen moeten we gaan kijken in de running-config.
+
 
 ![Interface F0/0](img/interfaceF0R3.PNG)
 
 9. Er is geen interface Serial0/0/0, wel een interface Serial30 en heeft als ip adres 192.168.1.2
 10. shutdown is bij interface S3/0 ingesteld, dit kunnen we zien omdat er geen shutdown bij de interface te zien is.
-11. De clockrate van interface Serial3/0 is ingesteld op 64000.
+11. De clockrate van interface Serial3/0 is ingesteld op 64000. Om deze creteria te gaan controleren kunnen we het commando show running-config raadplegen.
 
 ![Serial interface 3/0](img/SerialsR3.PNG)
 
-11. Volgende ip routes zijn vastgesteld.
+11. Volgende ip routes zijn vastgesteld. Door het commando show ip route te gaan gebruiken kunnen we deze routes terug vinden.
     a. ip route 192.168.1.0 255.255.255.0 192.168.1.2
     b. ip route 172.16.0.0 255.255.252.0 198.168.1.2
+    
 12. Er is geen default route ingesteld. 
     Oplossing : Instellen kan door het commando : ip route 0.0.0.0 0.0.0.0 192.168.1.2
     
@@ -304,6 +310,8 @@ De hostname van de switch klopt zoals te zien in de CLI, Vlan 1 is ook actief di
  ## PC1
  1. Het ip adres van PC1 is inderdaad 172.16.3.10.
  2. Het default gateway van PC1 is 172.16.3.1.
+ 
+Als we in commando prompt van de PC gaan, en het commando ipconfig gaan gebruiken kunnen we deze informatie terug vinden die je vindt op onderstaande foto. 
  
   ![ipconfig PC1](img/ipPC1.PNG)
  
