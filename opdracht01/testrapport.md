@@ -192,6 +192,9 @@ De hostname van de switch klopt zoals te zien in de CLI, Vlan 1 is ook actief di
 
 ## Testrapport labo 4
 
+Uitvoerder: Joeri verhavert
+Datum: 6/03/02/2018
+
 ## Switch R1
 
 1. Secret wachtwoord is inderdaad class. Dit kunnen we controleren door het commando show running config te gaan gebruiken. Als we dan in running-config kijken zien we dat enable secret aanwezig is in de config, hier kunnen we wel niet zien wat het wachtwoord is.Maar dit kunnen we controleren door het commando enable in de geven.
