@@ -300,4 +300,23 @@ De hostname van de switch klopt zoals te zien in de CLI, Vlan 1 is ook actief di
     Oplossing : Instellen kan door het commando : ip route 0.0.0.0 0.0.0.0 192.168.1.2
     
  ![Ip routes Router R1](img/iprouteR3.PNG)
+ 
+ ## PC1
+ 1. Het ip adres van PC1 is inderdaad 172.16.3.10.
+ 2. Het default gateway van PC1 is 172.16.3.1.
+ 
+  ![ipconfig PC1](img/ipPC1.PNG)
+ 
+ ## PC2
+ 1. Het ip adres van PC1 is inderdaad 172.16.1.10.
+ 2. Het default gateway van PC1 is 172.16.1.1.
+ 
+  ![ipconfig PC2](img/ipPC2.PNG)
+ 
+ ## PC3
+ 1. Het ip adres van PC1 is inderdaad 172.16.2.10.
+ 2. Het default gateway van PC1 is 172.16.2.1.
+ 
+  ![ipconfig PC3](img/ipPC2.PNG)
+ 
 
