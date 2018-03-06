@@ -285,7 +285,7 @@ De hostname van de switch klopt zoals te zien in de CLI, Vlan 1 is ook actief di
 7. No shutdown is bij F0/0 aanwezig.
 8. De description van F0/0 is "This is the description", dit klopt dus.
 
-![Interface F0/0](img/interfaceserial2R3.PNG)
+![Interface F0/0](img/interfaceF0R3.PNG)
 
 9. Er is geen interface Serial0/0/0, wel een interface Serial30 en heeft als ip adres 192.168.1.2
 10. shutdown is bij interface S3/0 ingesteld, dit kunnen we zien omdat er geen shutdown bij de interface te zien is.
