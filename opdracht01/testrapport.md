@@ -253,7 +253,7 @@ De hostname van de switch klopt zoals te zien in de CLI, Vlan 1 is ook actief di
 10. Er is geen interface Serial0/0/1, wel een interface Serial3/0 en heeft als ip adres 172.16.1.2 255.255.255.0
 11. No shutdown is bij interface S2/0 en S3/0 ingesteld, dit kunnen we zien omdat er geen shutdown bij de interface te zien is.
 
-![Serial interface 0/0/0 en 0/0/1](img/SerialsR2.PNG)
+![Serial interface 2/0 en 3/0](img/SerialsR2.PNG)
 
 12. Volgende ip routes zijn vastgesteld.
     a. ip route 172.16.2.0 255.255.255.0 172.16.2.1 
@@ -265,4 +265,39 @@ De hostname van de switch klopt zoals te zien in de CLI, Vlan 1 is ook actief di
     
  ![Ip routes Router R1](img/iprouteR2.PNG)
 
+## Switch R3
+
+1. Secret password is class, dit komt overeen met het testplan.
+2. De hostnaam van de switch is R2, dit klopt.
+
+![Hostname Router R3 + secret](img/HostnameR3.PNG)
+
+3. No ip domain-lookup vinden we terug in het running-config hiermee weten we dat dit is gëenabled.
+
+![no domain-lookup Router R3](img/noIpdomainlookupR3.PNG)
+
+4. Het password van line vty 0 15 is inderdaad password.
+5. Logging synchronous is op alle vty line ingesteld.
+
+![line vty 15 + synchronous](img/linevtyR3.PNG)
+
+6. Interface F0/0 heeft als ip adres. 192.168.2.1 255.255.255.0
+7. No shutdown is bij F0/0 aanwezig.
+8. De description van F0/0 is "This is the description", dit klopt dus.
+
+![Interface F0/0](img/interfaceserial2R3.PNG)
+
+9. Er is geen interface Serial0/0/0, wel een interface Serial30 en heeft als ip adres 192.168.1.2
+10. shutdown is bij interface S3/0 ingesteld, dit kunnen we zien omdat er geen shutdown bij de interface te zien is.
+11. De clockrate van interface Serial3/0 is ingesteld op 64000.
+
+![Serial interface 3/0](img/SerialsR3.PNG)
+
+11. Volgende ip routes zijn vastgesteld.
+    a. ip route 192.168.1.0 255.255.255.0 192.168.1.2
+    b. ip route 172.16.0.0 255.255.252.0 198.168.1.2
+12. Er is geen default route ingesteld. 
+    Oplossing : Instellen kan door het commando : ip route 0.0.0.0 0.0.0.0 192.168.1.2
+    
+ ![Ip routes Router R1](img/iprouteR3.PNG)
 
