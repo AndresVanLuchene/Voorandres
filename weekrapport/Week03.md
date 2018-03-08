@@ -36,7 +36,7 @@
 ### Thymon
 
 * ...
-![Afbeelding individueel rapport tijdregistratie](/img/uren.JPG)
+![Afbeelding individueel rapport tijdregistratie](img/uren.JPG)
 
 ### Jonas
 
