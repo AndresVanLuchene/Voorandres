@@ -36,8 +36,7 @@
 ### Thymon
 
 * ...
-
-[Afbeelding individueel rapport tijdregistratie]
+![Afbeelding individueel rapport tijdregistratie](/img/uren.JPG)
 
 ### Jonas
 
@@ -55,7 +54,7 @@
 
 ### Algemeen
 ### joeri : afwerken fysieke labo4  + Wisa opdracht 2
-### Jonas : 
+### Jonas : Fysiek labo 4 uitwerken + informeren Wisa en bijhorende
 ### Emiel :
 ### Thymon : 
 
@@ -73,7 +72,7 @@
 ### Student 3
 ### Student 4
 
-## Feedback analyseluik
+## Feedback analyse luik
 
 ### Algemeen
 
