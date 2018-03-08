@@ -54,9 +54,9 @@
 
 ### Algemeen
 ### joeri : afwerken fysieke labo4  + Wisa opdracht 2
-### Jonas : Fysiek labo 4 uitwerken + informeren Wisa en bijhorende
+### Jonas : 
 ### Emiel :
-### Thymon : 
+### Thymon : Fysiek labo 4 uitwerken + informeren Wisa en bijhorende
 
 ## Waar hebben jullie nog problemen mee?
 
