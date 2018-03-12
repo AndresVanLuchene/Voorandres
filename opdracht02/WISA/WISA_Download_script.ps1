@@ -32,6 +32,7 @@ choco install sqlserver-cmdlineutils
 choco install sqlserverlocaldb;
 choco update sqlserver-cmdlineutils;
 choco update sqlserverlocaldb;
+choco install mssql2014express-defaultinstance
 
 #installaties compleet
 clear-host;
