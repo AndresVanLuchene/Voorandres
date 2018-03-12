@@ -42,7 +42,7 @@
 
 * ...
 
-[Afbeelding individueel rapport tijdregistratie]
+[Afbeelding individueel rapport tijdregistratie](img/JonasWeek3.PNG)
 
 ### Emiel
 
@@ -54,7 +54,7 @@
 
 ### Algemeen
 ### joeri : afwerken fysieke labo4  + Wisa opdracht 2
-### Jonas : 
+### Jonas : Opdracht 2 LAMP
 ### Emiel :
 ### Thymon : Fysiek labo 4 uitwerken + informeren Wisa en bijhorende
 
