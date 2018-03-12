@@ -31,24 +31,24 @@
 #### Afbeelding tijdregistratie weekrapport 5
 * ...
 
-![Afbeelding individueel rapport tijdregistratie]()
+![Afbeelding individueel rapport tijdregistratie](img/tijdJoeri5.JPG)
 
 ### Thymon
 
 * ...
-![Afbeelding individueel rapport tijdregistratie]()
+![Afbeelding individueel rapport tijdregistratie](img/tijdThyma5.JPG)
 
 ### Jonas
 
 * ...
 
-![Afbeelding individueel rapport tijdregistratie]()
+![Afbeelding individueel rapport tijdregistratie](img/tijdJonas5.JPG)
 
 ### Emiel
 
 * ...
 
-![Afbeelding individueel rapport tijdregistratie]()
+![Afbeelding individueel rapport tijdregistratie](img/tijdEmiel5.JPG)
 
 ## Wat plan je volgende week te doen?
 
