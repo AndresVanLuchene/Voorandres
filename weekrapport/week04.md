@@ -1,7 +1,7 @@
 # Voortgangsrapport week 4
 
 * Groep: g02
-* Datum: 5/03/2018
+* Datum: 26/02/2018 - 5/03/2018  
 
 | Student  | Aanw. | Opmerking |
 | :---     | :---  | :---      |
@@ -12,7 +12,7 @@
 
 ## Wat heb je deze week gerealiseerd?
 
-* 19-02 tot 26/02 
+* 26/02 - 05/03 
     * We hebben Labo 4 volledig fysiek uitgewerkt en afgewerkt en we zijn begonnen aan opdracht 2: Vagrant, WISA
 
 ### Algemeen
