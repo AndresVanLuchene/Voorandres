@@ -1,4 +1,4 @@
-﻿Clear-Host;
+Clear-Host;
 
 Import-Module ServerManager;
 Import-Module PackageManagement;
@@ -30,11 +30,11 @@ Write-Host("mySQL  wordt momenteel gëinstalleerd");
 choco feature enable -y allowGlobalConfirmation;
 choco install sqlserver-cmdlineutils
 choco install sqlserverlocaldb;
+choco install mssql2014express-defaultinstance
 choco update sqlserver-cmdlineutils;
 choco update sqlserverlocaldb;
-choco install mssql2014express-defaultinstance
+choco update mssql2014express-defaultinstance
+
 
 #installaties compleet
 clear-host;
-Write-Host("ALLES IS GËINSTALLEERD!");
-
