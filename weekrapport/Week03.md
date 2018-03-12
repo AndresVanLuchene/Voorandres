@@ -67,17 +67,17 @@
 
 ### Algemeen
 
-### Student 1
-### Student 2
-### Student 3
-### Student 4
+### Emiel 
+### Joeri
+### Jonas
+### Thymon
 
 ## Feedback analyse luik
 
 ### Algemeen
 
-### Student 1
-### Student 2
-### Student 3
-### Student 4
+### Emiel 
+### Joeri
+### Jonas
+### Thymon
 
