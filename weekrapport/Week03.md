@@ -47,8 +47,8 @@
 ### Emiel
 
 * ...
-
-[Afbeelding individueel rapport tijdregistratie]
+!
+[Afbeelding individueel rapport tijdregistratie](img/weekrapportweek3.JPG)
 
 ## Wat plan je volgende week te doen?
 
