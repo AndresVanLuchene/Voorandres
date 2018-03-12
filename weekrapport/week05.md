@@ -1,7 +1,7 @@
 # Voortgangsrapport week 5
 
 * Groep: g02
-* Datum: 12/03/2018
+* Datum: 05/03/2018 - 12/03/2018
 
 | Student  | Aanw. | Opmerking |
 | :---     | :---  | :---      |
@@ -12,7 +12,7 @@
 
 ## Wat heb je deze week gerealiseerd?
 
-* 19-02 tot 26/02 
+* 05/03 - 12/03
     * Wisa Server is bijna af, nog een kleine fout die we proberen oplossen, documentatie verloopt geleidelijk met het oplossen van de vraag
     * Vagrant is ok, LAMP is ok, alleen nog documentatie moet geburen
 
