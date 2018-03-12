@@ -67,6 +67,9 @@ Thymon, probleem dat pc de WISA server niet aankan, dus niet veel werk kunen doe
 
 ### Algemeen
 
+* Beetje laat met deze feedback maar opdracht 1 is goedgekeurd, inclusief labo 4 fysieke opstelling
+* Weekrapporten opvullen aub. + vermelden als ticket op Kanbanbord
+
 ### Student 1
 ### Student 2
 ### Student 3
