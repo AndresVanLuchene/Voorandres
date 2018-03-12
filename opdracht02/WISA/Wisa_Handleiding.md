@@ -20,7 +20,7 @@ Als volgende stap installeren we het NET-HTTP-Activation module op ons systeem. 
 
 Als laaste zullen we de mySQL gaan downloaden. Hiervoor gebruiken we chocolatey.org voor het proces te versnellen en te vereenvoudigen. 
 We gebruiken het commando. 
-`Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+`Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
 Met dit commando gaan we chocolatey downloaden door gebruik te maken van een externe link.
 
 
