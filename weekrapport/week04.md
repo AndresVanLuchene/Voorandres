@@ -31,7 +31,7 @@ Het deel dat doorkruist is, is van een week te ver doordat we weekrapport 4 te l
 #### Afbeelding tijdregistratie weekrapport 4
 * ...
 
-![Afbeelding individueel rapport tijdregistratie](img/tijdJoeriWeek4.PNG)
+![Afbeelding individueel rapport tijdregistratie](img/tijdJoeriWeek4.JPG)
 
 ### Thymon
 
