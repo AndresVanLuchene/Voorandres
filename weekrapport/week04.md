@@ -25,6 +25,7 @@
 
 #### Afbeelding tijdregistratie weekrapport 4
 ![Afbeelding teamoverzicht tijdregistratie onderverdeeld per deelopdracht](img/weekrapport4_tijd.JPG)
+Het deel dat doorkruist is, is van een week te ver doordat we weekrapport 4 te laat hebben ingevuld.
 
 ### Joeri Verhavert
 #### Afbeelding tijdregistratie weekrapport 4
@@ -59,16 +60,13 @@
 
 ## Waar hebben jullie nog problemen mee?
 
-Thymon, probleem dat pc de WISA server niet aankan, dus niet veel werk kunen doen aan die server.
-* ...
+
+* Thymon, probleem dat pc de WISA server niet aan kan, dus niet veel werk kunen doen aan die server.
 * ...
 
 ## Feedback technisch luik
 
 ### Algemeen
-
-* Beetje laat met deze feedback maar opdracht 1 is goedgekeurd, inclusief labo 4 fysieke opstelling
-* Weekrapporten opvullen aub. + vermelden als ticket op Kanbanbord
 
 ### Student 1
 ### Student 2
