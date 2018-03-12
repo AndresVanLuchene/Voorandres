@@ -61,8 +61,8 @@ Het deel dat doorkruist is, is van een week te ver doordat we weekrapport 4 te l
 ## Waar hebben jullie nog problemen mee?
 
 
-* Thymon, probleem dat pc de WISA server niet aan kan, dus niet veel werk kunen doen aan die server.
-* ...
+* Thymon, probleem dat pc de WISA server niet aan kan, dus niet veel werk kunnen doen aan die server.
+* Veel opzoekingswerk door gebrek aan kennis van de te installeren en te gebruiken software
 
 ## Feedback technisch luik
 
