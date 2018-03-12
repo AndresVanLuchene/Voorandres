@@ -31,24 +31,24 @@
 #### Afbeelding tijdregistratie weekrapport 5
 * ...
 
-![Afbeelding individueel rapport tijdregistratie](img/tijdJoeri5.JPG)
+![Afbeelding individueel rapport tijdregistratie](img/tijdJoeriWeek5.JPG)
 
 ### Thymon
 
 * ...
-![Afbeelding individueel rapport tijdregistratie](img/tijdThyma5.JPG)
+![Afbeelding individueel rapport tijdregistratie](img/tijdThymaWeek5.JPG)
 
 ### Jonas
 
 * ...
 
-![Afbeelding individueel rapport tijdregistratie](img/tijdJonas5.JPG)
+![Afbeelding individueel rapport tijdregistratie](img/tijdJonasWeek5.JPG)
 
 ### Emiel
 
 * ...
 
-![Afbeelding individueel rapport tijdregistratie](img/tijdEmiel5.JPG)
+![Afbeelding individueel rapport tijdregistratie](img/tijdEmielWeek5.JPG)
 
 ## Wat plan je volgende week te doen?
 
@@ -67,6 +67,8 @@
 ## Feedback technisch luik
 
 ### Algemeen
+
+* [linkje naar PowerShell Windows Update](https://gallery.technet.microsoft.com/scriptcenter/2d191bcd-3308-4edd-9de2-88dff796b0bc)
 
 ### Student 1
 ### Student 2
