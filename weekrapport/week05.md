@@ -70,17 +70,17 @@
 
 * [linkje naar PowerShell Windows Update](https://gallery.technet.microsoft.com/scriptcenter/2d191bcd-3308-4edd-9de2-88dff796b0bc)
 
-### Student 1
-### Student 2
-### Student 3
-### Student 4
+### Emiel 
+### Joeri
+### Jonas
+### Thymon
 
 ## Feedback analyse luik
 
 ### Algemeen
 
-### Student 1
-### Student 2
-### Student 3
-### Student 4
+### Emiel 
+### Joeri
+### Jonas
+### Thymon
 
