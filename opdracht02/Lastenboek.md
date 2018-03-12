@@ -26,7 +26,7 @@
 | :---     |    ---: |         ---: |
 | Thymon   |    20   |              |
 | Jonas    |   30   |              |
-| Emiel    |        |              |
+| Emiel    |    35    |              |
 | Joeri    |   25    |              |
 
 (na oplevering van de taak een schermafbeelding toevoegen van rapport tijdbesteding voor deze taak)
