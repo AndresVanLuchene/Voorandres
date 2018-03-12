@@ -55,7 +55,7 @@
 ### Algemeen
 ### joeri : afwerken fysieke labo4  + Wisa opdracht 2
 ### Jonas : Opdracht 2 LAMP
-### Emiel :
+### Emiel : Afwerken fysiek en SAP opdracht 2
 ### Thymon : Fysiek labo 4 uitwerken + informeren Wisa en bijhorende
 
 ## Waar hebben jullie nog problemen mee?
