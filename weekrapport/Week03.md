@@ -1,7 +1,7 @@
 # Voortgangsrapport week nn
 
 * Groep: g02
-* Datum: 26/02/2018
+* Datum: 19/02/2018 - 26/02/2018
 
 | Student  | Aanw. | Opmerking |
 | :---     | :---  | :---      |
