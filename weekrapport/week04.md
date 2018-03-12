@@ -48,7 +48,7 @@ Het deel dat doorkruist is, is van een week te ver doordat we weekrapport 4 te l
 
 * ...
 
-[Afbeelding individueel rapport tijdregistratie] (img/tijdEmielWeek4.JPG)
+![Afbeelding individueel rapport tijdregistratie](img/tijdEmielWeek4.JPG)
 
 ## Wat plan je volgende week te doen?
 
