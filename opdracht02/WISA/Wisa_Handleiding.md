@@ -4,7 +4,7 @@ Auteur(s): Joeri Verhavert
 
 Gebruikte OS: Windows server 2016
 
-Voordat je deze handleiding gebruikt raad ik je aan om eerst volgend handleiding te gebruiken: 
+Voordat je deze handleiding gebruikt raad ik je aan om eerst vagrant handleiding te gebruiken.
 
 ## Windows Server 
 
