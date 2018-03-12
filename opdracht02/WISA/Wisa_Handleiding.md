@@ -23,5 +23,11 @@ We gebruiken het commando.
 `Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
 Met dit commando gaan we chocolatey downloaden door gebruik te maken van een externe link.
 
+Het volgende commando dat we gebruieken is `choco feature enable -n allowGlobalConfirmation`. 
+
+Om mySQL te installeren gebruiken we het commando `choco install mysql -y `. Hier gaan we mySQL gaan downloaden van de chocolatey databank gaan downlaoden,parameter `-y` staat hier voor yes. Zodat op elke vraag die de installatie vraagt yes wordt gëantwoord.
+
+Als laaste stap vragen we om mySQL te update als zekerheid. Hiervoor wordt het commando `choco update mySQL` gebruik.
+
 
 
