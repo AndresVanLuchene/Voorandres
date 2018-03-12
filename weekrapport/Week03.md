@@ -42,7 +42,7 @@
 
 * ...
 
-[Afbeelding individueel rapport tijdregistratie](img/JonasWeek3.JPG)
+![Afbeelding individueel rapport tijdregistratie](img/JonasWeek3.JPG)
 
 ### Emiel
 
