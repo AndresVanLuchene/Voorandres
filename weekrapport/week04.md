@@ -68,17 +68,16 @@ Het deel dat doorkruist is, is van een week te ver doordat we weekrapport 4 te l
 
 ### Algemeen
 
-### Student 1
-### Student 2
-### Student 3
-### Student 4
+### Emiel 
+### Joeri
+### Jonas
+### Thymon
 
 ## Feedback analyse luik
 
 ### Algemeen
 
-### Student 1
-### Student 2
-### Student 3
-### Student 4
-
+### Emiel 
+### Joeri
+### Jonas
+### Thymon
