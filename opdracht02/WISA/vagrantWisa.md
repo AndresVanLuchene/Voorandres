@@ -28,3 +28,4 @@ Door het script dat we geschreven hebben, zal de virtual machine ingesteld worde
 
 ![Vagrant provision Afbeelding](img/VagrantFile.JPG)
 
+Mededeling : ik raad u ook aan om de handleiding van ook eens te doornemen wisa script eens te doornemen.
