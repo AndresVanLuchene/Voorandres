@@ -1,4 +1,4 @@
-﻿Clear-Host;
+Clear-Host;
 
 Import-Module ServerManager;
 Import-Module PackageManagement;
@@ -11,6 +11,7 @@ Set-WinUserLanguageList -LanguageList NL-BE;
 Clear-host;
 Write-Host("Chocolatey wordt gëinstalleerd. Even geduldt aub.");
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'));
+choco feature enable -n allowGlobalConfirmation;
 
 #controleren op windows updates
 Clear-Host;
@@ -29,17 +30,14 @@ Add-WindowsFeature NET-HTTP-Activation;
 
 #installatie SQLServer
 clear-host;
-
-Write-Host("mySQL  wordt momenteel gëinstalleerd, even geduldt aub.");
-choco feature enable -y allowGlobalConfirmation;
-choco install mssqlserver2014express
+Write-Host("SQLServer  wordt momenteel gëinstalleerd, even geduldt aub.");
+choco install mssqlserver2014express;
 choco install sqlserver-cmdlineutils
-choco install webdeploy
+choco install webdeploy;
 choco update sqlserver-cmdlineutils;
-choco update mssqlserver2014express
-choco update webdeploy
+choco update mssqlserver2014express;
+choco update webdeploy;
 
 #installaties compleet
 clear-host;
 Write-Host("ALLES IS GËINSTALLEERD!");
-
