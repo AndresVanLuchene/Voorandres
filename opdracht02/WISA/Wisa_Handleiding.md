@@ -12,7 +12,7 @@ Voordat je deze handleiding gebruikt raad ik je aan om eerst WISA vagrant handle
 
 In het eerste deel van het WiSA script worden de benodigde modules gëimporteerd. Om dit correct uit te voeren gebruiken we volgende commando's `Import-Module ServerManager`en `Import-Module PackageManagement`.
 
-![Import code Afbeelding](img/importwisa.PNG.PNG)
+![Import code Afbeelding](img/importwisa.PNG)
 
 In het volgende stukje code wordt het systeem voorzien van een `AZERTT` toetsenbord. Dit verbeterd, maakt het proces sneller en gemakkerlijk om direct met het systeem te gaan werken. Het commando die ik hiervoor gebruikte is het volgende : `Set-WinUserLanguageList -LanguageList NL-BE`.
 
