@@ -17,7 +17,7 @@ In het volgende stukje code wordt het systeem voorzien van een `AZERTT` toetsenb
 Vervolgens installeren we eerst chocolatey, dit maakt het efficiënter om programma's te gaan installeren. Hiervoor gebruikte ik het commando `Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`.
 Met dit commando gaan we chocolatey downloaden door gebruik te maken van een externe link.
 
-Het volgende commando dat we gebruiken is `choco feature enable -n allowGlobalConfirmation`. Dit commando zorgt er voor dat er steeds geen bevesteiing wordt gevraagd bij het downloaden.
+Het volgende commando dat we gebruiken is `choco feature enable -n allowGlobalConfirmation`. Dit commando zorgt er voor dat er steeds geen bevestiging wordt gevraagd bij het downloaden.
 
 We mogen zeker niet vergeten ons systeem te gaan controleren op update. Indien er nieuwe updates zijn moet het script het systeem voorzien van de nieuwe updates. Hiervoor moest het systeem verzien worden van `pswindowsupdate`,die we moesten downloaden van chocolatey. De commando's die nodig waren voor het systeem te update kunt u zien op volgende afbeelding.
 
