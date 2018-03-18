@@ -1,6 +1,7 @@
 # Testplan Opdracht 2:
 
 ## WISA
+ 1. login wachtwoord: vagrant
 ### script
 1. module servermanager aanwezig
 2. module PackageManagement aanwezig
