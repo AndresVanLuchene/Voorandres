@@ -31,19 +31,19 @@
 
 * ...
 
-![Afbeelding individueel rapport tijdregistratie](img/Week6/Uren_Jonas_Week6.PNG)
+![Afbeelding individueel rapport tijdregistratie](img/Week6/Uren_Jonas_week6.PNG)
 
 ### Emiel
 
 * ...
 
-![Afbeelding individueel rapport tijdregistratie](img/Week6/Uren_Emiel_Week6.PNG)
+![Afbeelding individueel rapport tijdregistratie](img/Week6/Uren_Emiel_week6.PNG)
 
 ### Thymon
 
 * ...
 
-![Afbeelding individueel rapport tijdregistratie](img/Week6/Uren_Thymon_Week6.PNG)
+![Afbeelding individueel rapport tijdregistratie](img/Week6/Uren_Thymon_week6.PNG)
 
 ## Wat plan je volgende week te doen?
 
