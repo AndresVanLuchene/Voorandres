@@ -25,7 +25,7 @@
 * ...
 
 #### Afbeelding tijdregistratie weekrapport 5
-![Afbeelding teamoverzicht tijdregistratie onderverdeeld per deelopdracht](img/WeekRapport_5.JPG)
+![Afbeelding teamoverzicht tijdregistratie onderverdeeld per deelopdracht](img/WeekRapport5_tijd.JPG)
 
 ### Joeri Verhavert
 #### Afbeelding tijdregistratie weekrapport 5
