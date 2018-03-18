@@ -25,7 +25,7 @@
 
 * ...
 
-![Afbeelding individueel rapport tijdregistratie](img/Week6/Uren_Joeri_Week6.PNG)
+![Afbeelding individueel rapport tijdregistratie](img/Week6/Uren_Joeri_week6.PNG)
 
 ### Jonas
 
