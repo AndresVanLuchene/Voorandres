@@ -21,7 +21,7 @@
   c. webdeploy aanwezig/installeerd
 12. http://localhost ziet er als volgt uit : 
 
-![IIS LOCALHOST](wisa/img/localhost.PNG)
+![IIS LOCALHOST](WISA/img/localhost.PNG)
 
 ### vagrant
 1. wisa script aanwezig in folder
