@@ -53,7 +53,11 @@ Volgens handleiding volgende commando's ingegeven
 - vagrant up
 - vagrant ssh
 
-Script gebruikt voor installaties: Script OK!
+Script gebruikt voor installaties:
+- extra lijn in Vagrantfile toegevoegd zodat bij opstarten script alles installeert:
+-- config.vm.provision "shell", path: "LAMP.sh"
+
+Script OK!
 
 Handleiding in orde!
 
