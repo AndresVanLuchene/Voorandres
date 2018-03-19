@@ -1,36 +1,43 @@
 # Testplan Opdracht 2:
 
 ## WISA
- 1. login wachtwoord: vagrant
- 2. menory : 2048
- 3. virtual name : Windows Server 2016
+Auteur(s) testplan: [Joeri Verhavert](https://github.com/joeriverhavert)
+
+ 1. login wachtwoord: Win2018
+ 2. virtual name : Windows Server 2016
 ### script
-1. module servermanager aanwezig/installeerd
-2. module PackageManagement aanwezig/installeerd
-3. Toestenbord instelling : Azerty Belgium
-4. Chocolatey aanwezig op het systeem
-5. Updates : apparataat up to date
-6. klok : Huidige tijd
-7. Internet is bruikbaar
-8. Windowsfeature IIS aanwezig/installeerd
-9. Windowsfeature HTTP aanwezig/installeerd
-10. Windowsfeature ASP.net aanwezig/installeerd
-11. SQLServer
-  a. mssqlserver2014express aanwezig/installeerd
-  b. sqlserver-cmdlineutils aanwezig/installeerd
-  c. webdeploy aanwezig/installeerd
-12. http://localhost ziet er als volgt uit : 
+
+Eerst en vooral moeten we controleren of volgende instellingen aanwezig zijn op het syteem.
+1. We controleren of het toetsenbord op Azerty staat
+2. Er moet gekeken worden of alle updates zijn uitgevoerd
+3. De klok instellingen moeten op huidig uur staan.
+4. Het internet moet raadpleegbaar zijn, hiermee bedoelen we dat er dus internet connectie is.
+5. Volgende features moeten aanwezig zijn: 
+    a. Windowsfeature IIS aanwezig/installeerd
+    b. Windowsfeature HTTP aanwezig/installeerd
+    c. Windowsfeature ASP.net aanwezig/installeerd
+6. SQLServer moet running zijn op de virtual machine, hierdoor moet : 
+  a. mssqlserver2014express aanwezig/installeerd zijn
+  b. sqlserver-cmdlineutils aanwezig/installeerd zijn
+  c. webdeploy aanwezig/installeerd zijn
+7. Vervolgens controleren we of localhost is zoals op onderstaande foto
 
 ![IIS LOCALHOST](WISA/img/localhost.PNG)
 
 ### vagrant
-#### vagrant file
-1. config.vm.box = "mwrock/Windows2016"
-2. config.vm.hostname = "host-win"
-3. config.winrm.username = "Windows Server 2016"
-4. config.winrm.basic_auth_only = true
-5. config.vm.provision "shell", path: "WISA.ps1", privileged: true, binary: true
-6. config.vm.box_check_update = true
+#### vagrant file controle
+Volgende instellingen moeten op de vagrantfile aanwezig zijn. indien dit niet aanwezig is, is er iets fout gelopen.
+ 1. config.vm.guest = :windows
+ 2. config.vm.communicator = "winrm"
+ 3. config.vm.boot_timeout = 600
+ 4. config.vm.graceful_halt_timeout = 600
+ 5. config.vm.hostname = "host-win"
+ 6. config.winrm.username = "Windows Server 2016"
+ 7. config.winrm.basic_auth_only = true
+ 8. config.vm.provision :shell, path: "WISA.ps1"
+ 9. config.vm.box_check_update = true
+10. config.vm.network :forwarded_port, guest: 3389, host: 3389
+11. config.vm.network :forwarded_port, guest: 5985, host: 5985, id: "winrm", auto_correct: true
 
 
 ## LAMP 
