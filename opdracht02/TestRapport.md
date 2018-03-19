@@ -59,7 +59,7 @@ MARIADB:
 ![Afbeelding 3](./img/imgTestRapport/Mariadb-status.PNG)
 
 PHP:
-4. Navigatie naar map: ## cd /var/www/html
+4. Navigatie naar map: - cd /var/www/html
 
 5. - sudo touch.info.php
 
