@@ -29,7 +29,7 @@
 
 ### Jonas
 
-* ...
+* LAMP Setup, Documentatie en testplan afgemaakt.
 
 ![Afbeelding individueel rapport tijdregistratie](img/Week6/Uren_Jonas_week6.PNG)
 
@@ -50,7 +50,7 @@
 ### Algemeen
 ### Emiel: 
 ### Joeri: 
-### Jonas: 
+### Jonas: Drupal setup afmaken en hier documentatie & testplan van opstellen
 ### Thymon: Vagrant TestRapport afwerken na oplossing voor fouten ivm met installaties en inloggen op vagrant gevonden te hebben.
 
 ## Waar hebben jullie nog problemen mee?
