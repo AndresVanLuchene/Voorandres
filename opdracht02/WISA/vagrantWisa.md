@@ -22,7 +22,7 @@ Als eerste stap ga je op zoek naar een windows server 2016 box op de vagrant clo
 
 Vervolgens raad ik u aan uw bestaande vagrantFile te vervangen door de aangeboden file die u kan downloaden op volgende link: [VagrantFile](https://drive.google.com/drive/folders/1-ZYW1M1NBqNnip81MVkD4aySdKI8uauY?usp=sharing). Door deze file te gaan gebruiken worden er bepaalde settings ingesteld voor de Windows Server VM die toch heel belangrijk zijn.
 
-Voor we reeds verder kunnen is het natuurlijk belangrijk dat we over het scriptje beschikken, deze kan u downloaden op volgende link : [VagrantFile](https://drive.google.com/drive/folders/1-ZYW1M1NBqNnip81MVkD4aySdKI8uauY?usp=sharing). 
+Voor we reeds verder kunnen is het natuurlijk belangrijk dat we over het scriptje beschikken, deze kan u downloaden op volgende link : [Windows Server 2016 Script](https://drive.google.com/drive/folders/1-ZYW1M1NBqNnip81MVkD4aySdKI8uauY?usp=sharing). 
 
 Als we nu het commando `vagrant up` gebruiken, gaat vagrant de virtual machine gaan booten. Dit betekent dat hij de virtual machine gaat gaan opzetten met de juiste settings die in de vagrantfile werden geinitialiseerd. 
 Dit kan dan ook een tijdje duren, wees hier dus op voorbereid.
