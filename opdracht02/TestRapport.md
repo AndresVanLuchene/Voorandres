@@ -61,16 +61,16 @@ MARIADB:
 PHP:
 4. Navigatie naar map: ## cd /var/www/html
 
-5. ## sudo touch.info.php
+5. - sudo touch.info.php
 
-6. ## sudo yum install nano
+6. - sudo yum install nano
 
-7. ## sudo nano info.php
+7. - sudo nano info.php
 
 8. In tekstEditor: <?php phpinfo(); ?>
 
-9. ## sudo systemctl restart httpd
+9. - sudo systemctl restart httpd
 
 10. surfen naar 192.168.33.11/info.php
 
-![Afbeelding 4](./img/imgTestRapport/info.php - status.PNG)
+![Afbeelding 4](./img/imgTestRapport/info.php_status.PNG)
