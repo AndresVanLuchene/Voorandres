@@ -55,7 +55,7 @@ Volgens handleiding volgende commando's ingegeven
 
 Script gebruikt voor installaties:
 - extra lijn in Vagrantfile toegevoegd zodat bij opstarten script alles installeert:
--- config.vm.provision "shell", path: "LAMP.sh"
+- config.vm.provision "shell", path: "LAMP.sh"
 
 Script OK!
 
