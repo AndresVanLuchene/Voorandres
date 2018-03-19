@@ -19,20 +19,29 @@ Uitvoerder(s) test: Thymon Van Spaendonck
 Uitgevoerd op: 19/03/2018
 
 map aangemaakt /Desktop/Vagrant
+
 git bash: cd ./Desktop/vagrant
+
 -vagrant init hansode/fedora-21-server-x86_64
+
 -vagrant up
+
 -vagrant ssh
+
 Controle laatste update:
+
 - sudo yum -y update
+
 Vagrant-file: Guest aangepast 82 -> 8082
 
 Lamp:
-- sudo yum -y install httpd
-Gaf foutcode "HTTP Error 404"
-Opgelost met:
 
-  - sudo yum clean all (hier ruimt men mee op en kan men de instalaltie verder zetten zonder "HTTP ERROR 404")
+- sudo yum -y install httpd
+
+Gaf foutcode "HTTP Error 404"
+
+Opgelost met:
+- sudo yum clean all (hier ruimt men mee op en kan men de instalaltie verder zetten zonder "HTTP ERROR 404")
 
 Begonnen op nieuwe pc
 -->
