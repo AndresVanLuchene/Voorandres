@@ -31,12 +31,15 @@ Lamp:
 -## sudo yum -y install httpd
 Gaf foutcode "HTTP Error 404"
 Opgelost met:
+
   -## sudo yum clean all (hier ruimt men mee op en kan men de instalaltie verder zetten zonder "HTTP ERROR 404")
 
 Begonnen op nieuwe pc
 -->
 BIOS aangepast op nieuwe pc naar "virtualization optie"
+
 Volgens handleiding volgende commando's ingegeven
+
  vagrant init hansode/fedora-21-server-x86_64
 - vagrant up
 - vagrant ssh
