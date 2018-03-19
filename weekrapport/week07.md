@@ -12,7 +12,9 @@
 
 ## Wat heb je deze week gerealiseerd?
 
-* ...
+* Vagrant TestRapport + test handleiding  
+*
+*
 
 ### Algemeen
 #### Status kanban bord weekrapport 7.
