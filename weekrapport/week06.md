@@ -45,7 +45,8 @@
 
 ### Thymon
 
-* ...
+* Verder zoeken op fouten installatie HTTPD vagrant, nieuwe pc gekocht, opnieuw begonnen en nieuwe fouten proberen oplossen
+* Documentatie in orde brengen
 
 ![Afbeelding individueel rapport tijdregistratie](img/Week6/Uren_Thymon_week6.PNG)
 
