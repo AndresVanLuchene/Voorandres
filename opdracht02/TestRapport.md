@@ -49,9 +49,10 @@ BIOS aangepast op nieuwe pc naar "virtualization optie"
 
 Volgens handleiding volgende commando's ingegeven
 
- vagrant init hansode/fedora-21-server-x86_64
+- vagrant init hansode/fedora-21-server-x86_64
 - vagrant up
 - vagrant ssh
+
 Script gebruikt voor installaties: Script OK!
 
 Handleiding in orde!
