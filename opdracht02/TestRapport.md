@@ -68,10 +68,12 @@ APACHE:
 ![Afbeelding 2](./img/imgTestRapport/Site_status.PNG)
 
 MARIADB:
-3. ##sudo service mariadb satus
+
+3. sudo service mariadb satus
 ![Afbeelding 3](./img/imgTestRapport/Mariadb-status.PNG)
 
 PHP:
+
 4. Navigatie naar map: - cd /var/www/html
 
 5. - sudo touch.info.php
