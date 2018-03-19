@@ -21,6 +21,6 @@ Om te testen of de Mariadb toepassing werkt en geinstalleerd is nemen we 2 stapp
 
 ### php
 
-Om onze php te testen maken we gewoon een bestand aan in de map `/var/www/html` met het commando `sudo touch info.php`. In dit bestand zet je dan het volgende `echo "<?php  phpinfo(); ?>"` en daarna surf je naar je ip adres gevolgde door `/info.php`. Werkt dit dan krijg je dit te zien.
+Om onze php te testen maken we gewoon een bestand aan in de map `/var/www/html` met het commando `sudo touch info.php`. In dit bestand zet je dan het volgende `<?php  phpinfo(); ?>` en daarna surf je naar je ip adres gevolgde door `/info.php`. Werkt dit dan krijg je dit te zien.
 
 ![Info php](img/phpWerkt.JPG)
