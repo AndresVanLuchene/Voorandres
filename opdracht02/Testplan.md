@@ -33,11 +33,6 @@
 6. config.vm.box_check_update = true
 
 
-
-## LAMP
-
-# Testplan Opdracht 2 LAMP:
-
 ## LAMP 
 Auteur(s) testplan: [Jonas Braem](https://github.com/Braem53402)
 
