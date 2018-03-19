@@ -12,7 +12,7 @@ Voor we het besturingsysteem kunnen downloaden via een vagrant share moeten we e
 
 ## Gebruik van Vagrant
 
-Voor dat je begint met vagrant te werken is handig om eerst een toegewezen folder aan te maken waar je wenst in te werken met vagrant. Hier heb ik gebruikt gemaakt van het mapje `windows2016`. In deze folder maak je gebruikt van dee `git bash here`, hierdoor zit je met de git bash rechtstreeks in de juiste folder.
+Voor dat je begint met vagrant te werken is handig om eerst een toegewezen folder aan te maken waar je wenst in te werken met vagrant. Hier heb ik gebruikt gemaakt van het mapje `windows2016`. In deze folder maak je gebruikt van de `git bash here`, hierdoor zit je met je git bash rechtstreeks in de juiste folder.
 
 Als eerste stap ga je op zoek naar een windows server 2016 box op de vagrant cloud, ik heb hier gebruikt gemaakt van de
 [/mwrockWindows Server 2016](https://app.vagrantup.com/mwrock/boxes/Windows2016). Om deze toe te voegen aan je vagrant file gebruik je het commando
@@ -20,7 +20,11 @@ Als eerste stap ga je op zoek naar een windows server 2016 box op de vagrant clo
 
 ![Vagrant init Afbeelding](img/vagrantINIT.PNG)
 
-Als we het commando `vagrant up` gebruiken, gaat vagrant de virtual machine gaan booten. Dit betekent dat hij de virtual machine gaat gaan opzetten. 
+Vervolgens raad ik u aan uw bestaande vagrantFile te vervangen door de aangeboden file die u kan downloaden op volgende link: [VagrantFile](https://drive.google.com/drive/folders/1-ZYW1M1NBqNnip81MVkD4aySdKI8uauY?usp=sharing). Door deze file te gaan gebruiken worden er bepaalde settings ingesteld voor de Windows Server VM die toch heel belangrijk zijn.
+
+Voor we reeds verder kunnen is het natuurlijk belangrijk dat we over het scriptje beschikken, deze kan u downloaden op volgende link : [VagrantFile](https://drive.google.com/drive/folders/1-ZYW1M1NBqNnip81MVkD4aySdKI8uauY?usp=sharing). 
+
+Als we nu het commando `vagrant up` gebruiken, gaat vagrant de virtual machine gaan booten. Dit betekent dat hij de virtual machine gaat gaan opzetten met de juiste settings die in de vagrantfile werden geinitialiseerd. 
 Dit kan dan ook een tijdje duren, wees hier dus op voorbereid.
 
 ![Vagrant Up Afbeelding](img/vagrantUP.PNG)
