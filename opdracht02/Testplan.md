@@ -24,11 +24,6 @@
 ![IIS LOCALHOST](WISA/img/localhost.PNG)
 
 ### vagrant
-1. wisa script aanwezig in folder
-2. Systeem wordt opgemaakt
-3. script automatisch geladen
-4. Wordt gecontroleerd op update 
-
 #### vagrant file
 1. config.vm.box = "mwrock/Windows2016"
 2. config.vm.hostname = "host-win"
@@ -36,8 +31,6 @@
 4. config.winrm.basic_auth_only = true
 5. config.vm.provision "shell", path: "WISA.ps1", privileged: true, binary: true
 6. config.vm.box_check_update = true
-
-### conclusie
 
 
 
