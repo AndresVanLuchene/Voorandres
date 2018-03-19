@@ -12,6 +12,10 @@
 
 ## Wat heb je deze week gerealiseerd?
 
+* 
+* 
+* 
+
 ### Algemeen
 
 ![Afbeelding huidige toestand Kanban-bord(en) invoegen](img/Week6/Trellobord.PNG)
