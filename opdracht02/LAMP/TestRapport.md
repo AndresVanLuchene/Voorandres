@@ -25,22 +25,10 @@ Begonnen op nieuwe pc
 -->
 BIOS aangepast op nieuwe pc naar "virtualization optie"
 Volgens handleiding volgende commando's ingegeven
-# vagrant init hansode/fedora-21-server-x86_64
-# vagrant up
-# vagrant ssh
-## sudo yum -y update
-## sudo yum -y install httpd
-## sudo systemctl start httpd
-## sudo systemctl enable httpd
-## sudo systemctl start firewalld
-## sudo systemctl enablefirewalld
-## sudo firewall-cmd --zone=public --permanent --add-port=8080/tcp
-## sudo firewall-cmd --zone=public --permanent --add-service=http & sudo firewall-cmd --reload
-## sudo yum -y install mariadb-server
-## sudo systemctl start mariadb.service
-## sudo systemctl enable mariadb.service
-## sudo systemctl status mariadb.service (controle op actieve DB)
-## sudo yum -y install php
+ vagrant init hansode/fedora-21-server-x86_64
+- vagrant up
+- vagrant ssh
+Script gebruikt voor installaties: Script OK!
 
 Handleiding in orde!
 
@@ -50,13 +38,13 @@ Datum: 19/03/2018
 
 APACHE:
 1. #sudo service httpd status
-![Afbeelding 1](img/imgTestRapport/HTTPD_Status.PNG)
+![Afbeelding 1](./img/imgTestRapport/HTTPD_Status.PNG)
 2. surfen naar 192.168.33.11 cont
-![Afbeelding 2](img/imgTestRapport/Site_status.PNG)
+![Afbeelding 2](./img/imgTestRapport/Site_status.PNG)
 
 MARIADB:
 3. ##sudo service mariadb satus
-![Afbeelding 3](img/imgTestRapport/Mariadb-status.PNG)
+![Afbeelding 3](./img/imgTestRapport/Mariadb-status.PNG)
 
 PHP:
 4. Navigatie naar map: ## cd /var/www/html
@@ -66,7 +54,7 @@ PHP:
 8. In tekstEditor: <?php phpinfo(); ?>
 9. ## sudo systemctl restart httpd
 10. surfen naar 192.168.33.11/info.php
-![Afbeelding 4](img/imgTestRapport/info.php - staus.PNG)
+![Afbeelding 4](./img/imgTestRapport/info.php - staus.PNG)
 
 
 
