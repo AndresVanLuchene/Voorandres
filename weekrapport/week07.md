@@ -35,7 +35,8 @@
 
 ### Thymon
 
-* ...
+* TestRapport Vagrant afgewerkt + testrapport handleiding + script
+
 ![Afbeelding individueel rapport tijdregistratie](img/)
 
 ### Jonas
