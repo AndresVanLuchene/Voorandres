@@ -16,11 +16,9 @@ Voor dat je begint met vagrant te werken is handig om eerst een toegewezen folde
 
 Als eerste stap ga je op zoek naar een windows server 2016 box op de vagrant cloud, ik heb hier gebruikt gemaakt van de
 [/mwrockWindows Server 2016](https://app.vagrantup.com/mwrock/boxes/Windows2016). Om deze toe te voegen aan je vagrant file gebruik je het commando
-`vagrant init mwrock/Windows2016`. Opgelet deze installatie kan een tijdje in beslag nemen!
+`vagrant init JoeriVerhavert/WindowsServer2016`. Opgelet deze installatie kan een tijdje in beslag nemen!
 
 ![Vagrant init Afbeelding](img/vagrantINIT.PNG)
-
-Vervolgens raad ik u aan uw bestaande vagrantFile te vervangen door de aangeboden file die u kan downloaden op volgende link: [VagrantFile Downloaden](https://drive.google.com/drive/folders/1-ZYW1M1NBqNnip81MVkD4aySdKI8uauY?usp=sharing). Door deze file te gaan gebruiken worden er bepaalde settings ingesteld voor de Windows Server VM die toch heel belangrijk zijn.
 
 Voor we reeds verder kunnen is het natuurlijk belangrijk dat we over het scriptje beschikken, deze kan u downloaden op volgende link : [Windows Server 2016 Script Downloaden](https://drive.google.com/drive/folders/1-ZYW1M1NBqNnip81MVkD4aySdKI8uauY?usp=sharing). 
 
