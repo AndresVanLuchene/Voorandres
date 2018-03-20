@@ -20,6 +20,12 @@ Als eerste stap ga je op zoek naar een windows server 2016 box op de vagrant clo
 
 ![Vagrant init Afbeelding](img/vagrantINIT.PNG)
 
+Vervlogens moeten we er voor zorgen dat vagrantfile de juiste commmando's bevat. Want zonder de juiste commando's zal de vagrant niet degelijk werken. Indien u deze vagrantfile wenst te downloaden, raad ik u aan om deze te vervangen met de bestaande file. Als je de commando's wenst te noteren kan u volgende commando's vinden op onderstaande foto.
+
+[Vagrantfile downloaden](https://github.com/HoGentTIN/p2ops-g02/blob/master/opdracht02/WISA/Vagrantfile)
+
+![Vagrantfile Afbeelding](img/vagrantfile.PNG)
+
 Voor we reeds verder kunnen is het natuurlijk belangrijk dat we over het scriptje beschikken, deze kan u downloaden op volgende link : [Windows Server 2016 Script Downloaden](https://github.com/HoGentTIN/p2ops-g02/blob/master/opdracht02/WISA/WISA.ps1). 
 
 Als we nu het commando `vagrant up` gebruiken, gaat vagrant de virtual machine gaan booten. Dit betekent dat hij de virtual machine gaat gaan opzetten met de juiste settings die in de vagrantfile werden geinitialiseerd. 
