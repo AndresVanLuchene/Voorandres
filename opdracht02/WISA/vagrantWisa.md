@@ -28,7 +28,7 @@ Dit kan dan ook een tijdje duren, wees hier dus op voorbereid.
 ![Vagrant Up Afbeelding](img/vagrantUP.PNG)
 
 Als laaste hoeven we enkel het script te laten draaien op de virtual machine, het juiste commando dat we hiervoor gebruiken is `vagrant provision`. 
-Door het script dat we geschreven hebben, zal de virtual machine met de juiste programma's en installaties voorzien worden. 
+Door het script dat we geschreven hebben, zal de virtual machine met de juiste programma's en installaties voorzien worden. Op volgende foto is niet de volledige provision te zien. Doordat het script heel groot is, zijn er heel wat geschreven lijnen bij. Indien begin van provision overeen komt werkt dit zoals behoren.
 
 ![Vagrant provision Afbeelding](img/vagrantprovision.PNG)
 
