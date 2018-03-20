@@ -12,7 +12,7 @@
 
 ## Wat heb je deze week gerealiseerd?
 
-* 
+* Verder gewerkt aan opdracht 2
 * 
 * 
 
@@ -54,7 +54,7 @@
 
 ### Algemeen
 ### Emiel: 
-### Joeri: 
+### Joeri: afwerken wisa
 ### Jonas: Drupal setup afmaken en hier documentatie & testplan van opstellen
 ### Thymon: Vagrant TestRapport afwerken na oplossing voor fouten ivm met installaties en inloggen op vagrant gevonden te hebben.
 
