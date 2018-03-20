@@ -4,15 +4,15 @@ Auteur(s): Joeri Verhavert
 
 Gebruikte OS: Windows server 2016
 
-Voor u deze handleiding raadpleegt, raad ik u aan op de vagrant en Wisa script handleiding te doornemen.
+Voor u deze handleiding raadpleegt, raden wij u aan om de vagrant en Wisa _Script handleiding te doornemen.
 
 ## Windows Server 
-Ons werk zit er bijna op, wat ons juist nog te doen staat is het OpenSource ASP.NET project te gaan converteren naar een applicatie. Om dit op een correcte manier te voltooien, heb ik een aantal stappen neergeschreven. Hierdoor is het voor u steeds gemakkelijk om tot een werkend resultaat te komen.
+Ons werk zit er bijna op, wat ons nog rest te doen is het OpenSource ASP.NET project te gaan converteren naar een applicatie. Om dit op een correcte manier te voltooien, hebben wij een aantal stappen neergeschreven. Hierdoor is het voor u steeds gemakkelijk om tot een werkend resultaat te komen.
 
 #### STAP 1 
-Nadat je een OpenSource ASP.NET project hebt gedownload moeten hem unzippen, dit unzippen we in de map `C:\Inetpub\wwwroot`.
+Nadat uw OpenSource ASP.NET project hebt gedownload moeten hem unzippen, dit unzippen we in de map `C:\Inetpub\wwwroot`. Indien al gëupzipt hoef je enkel dit te kopieren in de `C:\Inetpub\wwwroot` folder.
 
-!OPGELET : Sommige OpenSource ASP.NET bevatten verschillende folder met extra informatie. Dus let op goed welke folder u in de wwwroot unzipt! De folder die u moet hebben bevat allerei aspx bestanden. 
+!OPGELET : Sommige OpenSource ASP.NET bevatten verschillende folder met extra informatie. Dus let op goed welke folder u in de wwwroot unzipt! De folder die u nodig heeft bevat allerei aspx bestanden. 
 
 ![Inetpub Afbeelding](img/inetpub.PNG)
 
@@ -32,6 +32,6 @@ Het enige wat u nu nog moet doen om het OpenSource ASP.NET project te deployen i
 ![Convert to Application Afbeelding](img/converToApplication.PNG)
 
 #### STAP 5
-Als laatste stap rest ons enkel nog het instellen en aanmaken van de database, dit kunnen we doen op de applicatie zelf.
+Ziezo, Ons project staat nu op de localhost of website, maar ons rest enkel nog het instellen en aanmaken van de database, dit kunnen we doen op de applicatie zelf.
 
 ![Database Afbeelding](img/database.PNG)
