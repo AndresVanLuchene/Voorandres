@@ -4,7 +4,7 @@ Import-Module ServerManager;
 Import-Module PackageManagement;
 
 #instellen van toetsenbord 
-Read-host("Het toetsenbord wordt in gesteld op AZERTY");
+Write-host("Het toetsenbord wordt in gesteld op AZERTY");
 Set-WinUserLanguageList -LanguageList NL-BE;
 
 #installatie van choclatey
