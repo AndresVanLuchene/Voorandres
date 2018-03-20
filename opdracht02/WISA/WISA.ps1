@@ -40,4 +40,4 @@ choco update webdeploy;
 
 #installaties compleet
 clear-host;
-Write-Host("ALLES IS GËINSTALLEERD!");
+Write-Host("INSTALLATIES VOLTOOID!");
