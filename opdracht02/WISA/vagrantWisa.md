@@ -12,11 +12,11 @@ Voor we het besturingsysteem kunnen downloaden via een vagrant share moeten we e
 
 ## Gebruik van Vagrant
 
-Voor dat je begint met vagrant te werken is handig om eerst een toegewezen folder aan te maken waar je wenst in te werken met vagrant. Hier heb ik gebruikt gemaakt van het mapje `windows2016`. In deze folder maak je gebruikt van de `git bash here`, hierdoor zit je met je git bash rechtstreeks in de juiste folder.
+Voor dat je begint met vagrant te werken is handig om eerst een toegewezen folder aan te maken waar je wenst in te werken met vagrant. Hier heb ik gebruikt gemaakt van het mapje `WISA`. In deze folder maak je gebruikt van de `git bash here`, hierdoor zit je met je git bash rechtstreeks in de juiste folder.
 
 Als eerste stap ga je op zoek naar een windows server 2016 box op de vagrant cloud, ik heb hier gebruikt gemaakt van de
-[/JoeriVerhavert/WindowsServer2016](https://app.vagrantup.com/JoeriVerhavert/boxes/WindowsServer2016). Om deze toe te voegen aan je vagrant file gebruik je het commando
-`vagrant init JoeriVerhavert/WindowsServer2016`. Opgelet deze installatie kan een tijdje in beslag nemen!
+[/JoeriVerhavert/Windows2016](https://app.vagrantup.com/JoeriVerhavert/boxes/WindowsServer2016). Om deze toe te voegen aan je vagrant file gebruik je het commando
+`vagrant init JoeriVerhavert/Windows2016`. Opgelet deze installatie kan een tijdje in beslag nemen!
 
 ![Vagrant init Afbeelding](img/vagrantINIT.PNG)
 
