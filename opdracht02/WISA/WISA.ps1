@@ -5,7 +5,7 @@ Import-Module PackageManagement;
 
 #instellen van toetsenbord 
 Write-host("Het toetsenbord wordt in gesteld op AZERTY");
-Set-WinUserLanguageList -LanguageList NL-BE;
+Set-WinUserLanguageList -LanguageList NL-BE -Force;
 
 #installatie van choclatey
 Clear-host;
