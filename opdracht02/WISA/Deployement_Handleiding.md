@@ -12,7 +12,7 @@ Ons werk zit er bijna op, wat ons juist nog te doen staat is het OpenSource ASP.
 #### STAP 1 
 Nadat je een OpenSource ASP.NET project hebt gedownload moeten hem unzippen, dit unzippen we in de map C:\Inetpub\wwwroot.
 
-!OPGELET : Sommige OpenSource ASP.NET bevatten verschillende folder met extra informatie, zoek dus goed naar de juiste folder!
+!OPGELET : Sommige OpenSource ASP.NET bevatten verschillende folder met extra informatie. Dus let op goed welke folder u in de wwwroot unzipt! De folder die u moet hebben bevat allerei aspx bestanden. 
 
 ![Inetpub Afbeelding](img/inetpub.PNG)
 
