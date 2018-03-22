@@ -50,13 +50,8 @@ vagrant reload
 
 **Login**
 
-Initiële login --> vagrant/vagrant
+Login --> vagrant/vagrant
 
-Eerst en vooral gaan we nu het wachtwoord veranderen naar iets met minstens 8 verschillende tekens, hoofdletter, kleine letter en een digit. (Voorbeeld: Ko3to45)
-
-```
-passwd
-```
 
 Hierna gaan we navigeren naar de map met het SAP installatiescript
 
@@ -68,3 +63,19 @@ cd vagrant\sapinst
 ```
 
 Accepteer de licentie en geef hetzelfde wachtwoord dat je net zelf hebt ingevoerd.
+
+**SAP starten**
+
+```
+su npladm
+startsap ALL
+```
+
+De vbox can gestopt en gestart worden met volgende commandos:
+```
+vagrant up
+vagrant halt
+```
+Of met virtualbox:
+
+
