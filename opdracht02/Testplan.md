@@ -75,3 +75,23 @@ Om onze php te testen maken we gewoon een bestand aan in de map `/var/www/html` 
 ![Info php](LAMP/img/phpWerkt.JPG)
 
 ## SAP
+Auteur(s) testplan: [Emiel Marchand](https://github.com/RoyalSnail)
+
+### SAP Logon
+
+We zullen testen of we toegang hebben tot het SAP systeem. Dit doen we doormiddel van de software SAP LOGON.
+Die kan je downloaden in de client folder.
+
+![SAP Logon](SAP/img/saplogon.JPG)
+
+Na installatie van de software maak je een nieuwe 'system entry'.
+
+Druk op next en vul volgende gegevens in:
+
+Druk nog 1 keer next en dan finish.
+Dubbelklik op je system name uit de lijst en log in met username: Developer en wachtwoord: Appl1ance
+
+
+
+
+
