@@ -31,11 +31,11 @@ Add-WindowsFeature NET-HTTP-Activation;
 #installatie SQLServer
 clear-host;
 Write-Host("SQLServer  wordt momenteel gëinstalleerd, even geduldt aub.");
-choco install mssqlserver2014express;
-choco install sqlserver-cmdlineutils
+choco install sql-server-management-studio 
+choco install sql-server-express 
 choco install webdeploy;
-choco update sqlserver-cmdlineutils;
-choco update mssqlserver2014express;
+choco update sql-server-management-studio 
+choco update sql-server-express 
 choco update webdeploy;
 
 #installaties compleet
