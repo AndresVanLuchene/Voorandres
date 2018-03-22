@@ -22,6 +22,8 @@ Als eerste stap ga je op zoek naar een windows server 2016 box op de vagrant clo
 
 Vervlogens moeten we er voor zorgen dat vagrantfile de juiste commmando's bevat. Want zonder de juiste commando's zal de vagrant niet degelijk werken. Indien u deze vagrantfile wenst te downloaden, raad ik u aan om deze te vervangen met de bestaande file. Als je de commando's wenst te noteren kan u volgende commando's vinden op onderstaande foto.
 
+ ! Opgelet :  config.vm.box moet ingesteld worden op "JoeriVerhavert/Windows2016"!
+ 
 [Vagrantfile downloaden](https://github.com/HoGentTIN/p2ops-g02/blob/master/opdracht02/WISA/Vagrantfile)
 
 ![Vagrantfile Afbeelding](img/vagrantfile.PNG)
