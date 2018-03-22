@@ -27,6 +27,8 @@ choco install -y packer
 Download [sap_netweaver_as_abap_750_sp02_ase_dev_edition.partX.rar](https://tools.hana.ondemand.com/#abap) en pak de bestanden uit in: *./sapinst*
 
 **Packer** 
+
+Laat het commando runnen tot op het einde! Hierna krijg je een .box bestand die je straks nodig hebt.
 ```
 cd packer
 cd openSUSE-42.1
