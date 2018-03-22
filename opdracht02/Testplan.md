@@ -35,12 +35,22 @@ Vervolgens controleren we of volgende instellingen aanwezig zijn op het syteem.
 
 Opmerking : Het ASP.NET project dat ik u aanraad is BLOGSA.
 
-![ASP.NET Project](WISA/img/database.PNG)
+![ASP.NET Project](WISA/img/database_blog.PNG)
 
-10. Database MsqServer werkt met het project zoals behoren.
+10. ASAP.NET project heeft volledige schrijfrechten.
+
+11. Aanmaken van database met user heeft volgende instellingen nodig:
+     a. Server address : .\SQLEXPRESS
+     b. Username : vagrant
+     c. Password : vagrant
+     d. Database name : blogsa
+     
+12. Als u zelfde resultaat heeft als onderstaande foto, dan werkt de database naar behoren.
+
+![DATABASE Blog](WISA/img/database.PNG)
 
 ### vagrant
-Volgende instellingen moeten op de vagrantfile geïnitialiseerd zijn
+Volgende instellingen moeten op de vagrantfile geïnitialiseerd zijn:
   1. config.vm.box = "JoeriVerhavert/Windows2016 ".
   2. config.vm.provision :shell, path: "WISA.ps1".
   3. config.vm.communicator = "winrm".
