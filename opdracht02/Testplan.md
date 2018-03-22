@@ -35,19 +35,13 @@ Vervolgens controleren we of volgende instellingen aanwezig zijn op het syteem.
 
 Opmerking : Het ASP.NET project dat ik u aanraad is BLOGSA.
 
-![ASP.NET Project](WISA/img/database_blog.PNG)
+![ASP.NET Project](WISA/img/database.PNG)
 
 10. ASAP.NET project heeft volledige schrijfrechten.
-
-11. Aanmaken van database met user heeft volgende instellingen nodig:
-     a. Server address : .\SQLEXPRESS
-     b. Username : vagrant
-     c. Password : vagrant
-     d. Database name : blogsa
-     
+11. De connectie met de database heeft is correct ingevoerd. Deze ingevoerde gegevens kunt u vinden op de deployement handleiding.
 12. Als u zelfde resultaat heeft als onderstaande foto, dan werkt de database naar behoren.
 
-![DATABASE Blog](WISA/img/database.PNG)
+![DATABASE Blog](WISA/img/database_blog.PNG)
 
 ### vagrant
 Volgende instellingen moeten op de vagrantfile geïnitialiseerd zijn:
