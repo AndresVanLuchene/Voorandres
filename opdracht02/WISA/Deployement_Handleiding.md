@@ -35,3 +35,17 @@ Het enige wat u nu nog moet doen om het OpenSource ASP.NET project te deployen i
 Ziezo, Ons project staat nu op de localhost of website, maar ons rest enkel nog het instellen en aanmaken van de database, dit kunnen we doen op de applicatie zelf.
 
 ![Database Afbeelding](img/database.PNG)
+
+#### STAP 6
+Het aanmaken van de database met de juiste gebruiker doen we op de applicatie zelf. Deze login gegevens zijn : 
+1. Server Address : .\SQLEXPRESS
+2. Username : vagrant
+3. Password : vagrant
+4. Database Name : Blogsa
+5. Secure connection niet aangevinkt
+
+Als dit correct is ingevult zou uw pagina er zo moeten uitzien zoals op volgend foto. 
+
+![Database READY Afbeelding](img/database_Blog.PNG)
+
+
