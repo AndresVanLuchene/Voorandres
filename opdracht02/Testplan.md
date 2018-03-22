@@ -37,6 +37,10 @@ Opmerking : Het ASP.NET project dat ik u aanraad is BLOGSA.
 
 ![ASP.NET Project](WISA/img/database.PNG)
 
+10. Database MsqServer werkt met het project zoals behoren.
+
+![Database MsqlServer](WISA/img/)
+
 ### vagrant
 Volgende instellingen moeten op de vagrantfile geïnitialiseerd zijn
   1. config.vm.box = "JoeriVerhavert/Windows2016 ".
