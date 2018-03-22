@@ -78,4 +78,8 @@ vagrant halt
 ```
 Of met virtualbox:
 
+## Handleiding
 
+Belangrijk! In geval dat je een error krijgt i.v.m de licentie moet je het 'dbexe.tgz-aa' bestand in de map "..\sapinst\server\TAR\x86_64" vervangen door het 'dbexe.tgz-aa' bestand uit volgende link:
+
+[SAP Document center](https://mdocs.sap.com/mcm/public/v1/open?shr=dRhHsVYVLc5c1UDveogwtXBdL9m82JccRlvvBXO6K5Q)
