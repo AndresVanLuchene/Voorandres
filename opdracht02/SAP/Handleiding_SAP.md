@@ -52,7 +52,7 @@ vagrant reload
 
 Initiële login --> vagrant/vagrant
 
-Eerst en vooral gaan we nu het wachtwoord veranderen naar iets met minstens 8 verschillende tekens, hoofdletter, kleine letter en een digit.
+Eerst en vooral gaan we nu het wachtwoord veranderen naar iets met minstens 8 verschillende tekens, hoofdletter, kleine letter en een digit. (Voorbeeld: Ko3to45)
 
 ```
 sudo -i
