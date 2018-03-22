@@ -78,7 +78,7 @@ vagrant halt
 ```
 Of met virtualbox:
 
-## Handleiding
+## Troubleshooting
 
 Belangrijk! In geval dat je een error krijgt i.v.m de licentie moet je het 'dbexe.tgz-aa' bestand in de map "..\sapinst\server\TAR\x86_64" vervangen door het 'dbexe.tgz-aa' bestand uit volgende link:
 
