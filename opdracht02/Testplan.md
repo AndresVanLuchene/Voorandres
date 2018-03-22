@@ -3,11 +3,17 @@
 ## WISA
 Auteur(s) testplan: [Joeri Verhavert](https://github.com/joeriverhavert)
 
- 1. login wachtwoord: Win2018
+ 1. wachtwoord: vagrant
  2. virtual name : Windows Server 2016
+ 
+ ### vagrant
+ 1. We kunnen powershell connectie maken met de windows server.
+ 2. scriptje wordt zonder fouten gëinstalleerd.
+ 
 ### script
 
-Eerst en vooral moeten we controleren of volgende instellingen aanwezig zijn op het syteem.
+Vervolgens controleren we of volgende instellingen aanwezig zijn op het syteem.
+
 1. We controleren of het toetsenbord op Azerty staat
 2. Er moet gekeken worden of alle updates zijn uitgevoerd
 3. De klok instellingen moeten op huidig uur staan.
@@ -24,14 +30,15 @@ Eerst en vooral moeten we controleren of volgende instellingen aanwezig zijn op 
 
 ![IIS LOCALHOST](WISA/img/localhost.PNG)
 
-8. ASP.NET project in C/:inetpub/wwwroot
-9. Als we converteren naar application in iis zou ons project op localhost/"naam van het projcet" te zien zijn
+8. ASP.NET project kunnen we zonder fouten plaatsen in  C/:inetpub/wwwroot
+9. Als we converteren naar application in iis zou ons project op localhost/"naam van het projcet" te zien zijn zoals onderstaande foto.
+
+Opmerking : Het ASP.NET project dat ik u aanraad is BLOGSA.
 
 ![ASP.NET Project](WISA/img/database.PNG)
 
 ### vagrant
-#### vagrant file controle
-Volgende instellingen moeten op de vagrantfile aanwezig zijn. indien dit niet aanwezig is, is er iets fout gelopen.
+Volgende instellingen moeten op de vagrantfile geïnitialiseerd zijn
   1. config.vm.box = "JoeriVerhavert/Windows2016 ".
   2. config.vm.provision :shell, path: "WISA.ps1".
   3. config.vm.communicator = "winrm".
