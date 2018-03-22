@@ -24,3 +24,11 @@ choco install -y packer
 
 ## Handleiding
 
+Download [sap_netweaver_as_abap_750_sp02_ase_dev_edition.partX.rar](https://tools.hana.ondemand.com/#abap) en pak de bestanden uit in: *./sapinst*
+
+**Packer** 
+```
+cd packer
+cd openSUSE-42.1
+$ packer build -only=virtualbox-iso template.json
+```
