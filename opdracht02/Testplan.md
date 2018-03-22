@@ -41,7 +41,7 @@ Opmerking : Het ASP.NET project dat ik u aanraad is BLOGSA.
 11. De connectie met de database is correct ingevoerd. Deze ingevoerde gegevens kunt u vinden op de deployement handleiding.
 12. Als u zelfde resultaat heeft als onderstaande foto, dan werkt de database naar behoren.
 
-![DATABASE Blog](WISA/img/database_blog.PNG)
+![DATABASE Blog](WISA/img/database_Blog.PNG)
 
 ### vagrant
 Volgende instellingen moeten op de vagrantfile geïnitialiseerd zijn:
