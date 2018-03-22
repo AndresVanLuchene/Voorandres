@@ -86,12 +86,16 @@ Die kan je downloaden in de client folder.
 
 Na installatie van de software maak je een nieuwe 'system entry'.
 
+![Entry](SAP/img/systementry.JPG)
+
 Druk op next en vul volgende gegevens in:
+
+![Gegevens](SAP/img/gegevenssap.JPG)
 
 Druk nog 1 keer next en dan finish.
 Dubbelklik op je system name uit de lijst en log in met username: Developer en wachtwoord: Appl1ance
 
-
+![Succes!](SAP/img/succesvollelogin.JPG)
 
 
 
