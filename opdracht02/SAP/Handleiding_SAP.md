@@ -47,3 +47,14 @@ Wachten tot commando klaar is en dan:
 ```
 vagrant reload
 ```
+
+**Login**
+
+Initiële login --> vagrant/vagrant
+
+Eerst en vooral gaan we nu het wachtwoord veranderen naar iets met minstens 8 verschillende tekens, hoofdletter, kleine letter en een digit.
+
+```
+sudo -i
+passwd
+```
