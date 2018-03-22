@@ -30,10 +30,6 @@ Volgende instellingen moeten op de vagrantfile aanwezig zijn. indien dit niet aa
   1. config.vm.box = "JoeriVerhavert/Windows2016 ".
   2. config.vm.provision :shell, path: "WISA.ps1".
   3. config.vm.communicator = "winrm".
-  4. config.vm.provider "virtualbox" do |vb|
-         5. vb.gui = false
-	 6. vb.name = "WindowsServer2016"
-      end
 
 ## LAMP 
 Auteur(s) testplan: [Jonas Braem](https://github.com/Braem53402)
