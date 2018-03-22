@@ -34,3 +34,16 @@ cd packer
 cd openSUSE-42.1
 $ packer build -only=virtualbox-iso template.json
 ```
+
+**Vagrant**
+
+```
+cd ../../
+vagrant up --provision
+```
+
+Wachten tot commando klaar is en dan:
+
+```
+vagrant reload
+```
