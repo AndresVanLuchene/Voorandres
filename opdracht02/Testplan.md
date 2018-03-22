@@ -27,18 +27,13 @@ Eerst en vooral moeten we controleren of volgende instellingen aanwezig zijn op 
 ### vagrant
 #### vagrant file controle
 Volgende instellingen moeten op de vagrantfile aanwezig zijn. indien dit niet aanwezig is, is er iets fout gelopen.
- 1. config.vm.guest = :windows
- 2. config.vm.communicator = "winrm"
- 3. config.vm.boot_timeout = 600
- 4. config.vm.graceful_halt_timeout = 600
- 5. config.vm.hostname = "host-win"
- 6. config.winrm.username = "Windows Server 2016"
- 7. config.winrm.basic_auth_only = true
- 8. config.vm.provision :shell, path: "WISA.ps1"
- 9. config.vm.box_check_update = true
-10. config.vm.network :forwarded_port, guest: 3389, host: 3389
-11. config.vm.network :forwarded_port, guest: 5985, host: 5985, id: "winrm", auto_correct: true
-
+  1. config.vm.box = "JoeriVerhavert/Windows2016 "
+  2. config.vm.provision :shell, path: "WISA.ps1"
+  3. config.vm.communicator = "winrm"
+  4. config.vm.provider "virtualbox" do |vb|
+         a. vb.gui = false
+		       b. vb.name = "WindowsServer2016"
+      end
 
 ## LAMP 
 Auteur(s) testplan: [Jonas Braem](https://github.com/Braem53402)
