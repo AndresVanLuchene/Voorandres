@@ -24,6 +24,11 @@ Eerst en vooral moeten we controleren of volgende instellingen aanwezig zijn op 
 
 ![IIS LOCALHOST](WISA/img/localhost.PNG)
 
+8. ASP.NET project in C/:inetpub/wwwroot
+9. Als we converteren naar application in iis zou ons project op localhost/"naam van het projcet" te zien zijn
+
+![ASP.NET Project](WISA/img/database.PNG)
+
 ### vagrant
 #### vagrant file controle
 Volgende instellingen moeten op de vagrantfile aanwezig zijn. indien dit niet aanwezig is, is er iets fout gelopen.
