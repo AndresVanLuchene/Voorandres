@@ -58,3 +58,14 @@ Eerst en vooral gaan we nu het wachtwoord veranderen naar iets met minstens 8 ve
 sudo -i
 passwd
 ```
+
+Hierna gaan we navigeren naar de map met het SAP installatiescript
+
+```
+sudo -i
+cd..
+cd vagrant\sapinst
+./install.sh
+```
+
+Accepteer de licentie en geef hetzelfde wachtwoord dat je net zelf hebt ingevoerd.
